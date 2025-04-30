@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "glowberry_expantion:ingraved_diamond"
+    },
+    {
+      "item": "glowberry_expantion:blue_glowberry_extract"
+    }
+  ],
+  "result": {
+    "item": "glowberry_expantion:ingraved_diamond",
+    "count": 1
+  }
+}

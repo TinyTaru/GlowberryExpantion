@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "blockstate=0": {
+      "model": "glowberry_expantion:block/glowberry_lantern"
+    },
+    "blockstate=1": {
+      "model": "glowberry_expantion:block/glowberry_lantern_blockstate_blockstate_0"
+    },
+    "blockstate=2": {
+      "model": "glowberry_expantion:block/glowberry_lantern_blockstate_blockstate_1"
+    },
+    "blockstate=3": {
+      "model": "glowberry_expantion:block/glowberry_lantern_blockstate_blockstate_2"
+    },
+    "blockstate=4": {
+      "model": "glowberry_expantion:block/glowberry_lantern_blockstate_blockstate_3"
+    },
+    "blockstate=5": {
+      "model": "glowberry_expantion:block/glowberry_lantern_blockstate_blockstate_4"
+    }
+  }
+}

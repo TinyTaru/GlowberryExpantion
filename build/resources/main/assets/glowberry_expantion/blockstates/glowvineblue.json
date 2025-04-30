@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "blockstate=0": {
+      "model": "glowberry_expantion:block/glowvineblue"
+    },
+    "blockstate=1": {
+      "model": "glowberry_expantion:block/glowvinebluetip_blockstate_0"
+    },
+    "blockstate=2": {
+      "model": "glowberry_expantion:block/glowvinebluetip_blockstate_1"
+    },
+    "blockstate=3": {
+      "model": "glowberry_expantion:block/glowvinebluetip_blockstate_2"
+    }
+  }
+}

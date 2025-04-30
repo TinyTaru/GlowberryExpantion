@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "t_glow_b",
+        "2": "top",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

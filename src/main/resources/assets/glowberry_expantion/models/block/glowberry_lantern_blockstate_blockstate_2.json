@@ -1,0 +1,11 @@
+{
+  "parent": "glowberry_expantion:custom/glowberry_lamp_hanging",
+  "textures": {
+    "all": "glowberry_expantion:block/t_glow_b",
+    "particle": "glowberry_expantion:block/t_glow_b",
+    "1": "glowberry_expantion:block/t_glow_b",
+    "2": "glowberry_expantion:block/top",
+    "missing": "glowberry_expantion:block/"
+  },
+  "render_type": "cutout"
+}

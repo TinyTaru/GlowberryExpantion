@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "glowberry_expantion:blocks/gem_engraver",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "glowberry_expantion:gem_engraver"
+        }
+      ]
+    }
+  ]
+}

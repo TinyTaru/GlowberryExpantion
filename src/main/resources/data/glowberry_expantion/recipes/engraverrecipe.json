@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:smooth_stone"
+    },
+    "b": {
+      "item": "minecraft:spruce_planks"
+    },
+    "c": {
+      "item": "glowberry_expantion:chisel"
+    }
+  },
+  "result": {
+    "item": "glowberry_expantion:gem_engraver",
+    "count": 1
+  }
+}

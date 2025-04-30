@@ -1,0 +1,32 @@
+{
+  "_fv": 66,
+  "_type": "blockstates",
+  "definition": {
+    "block": "GlowberryRefiner",
+    "blockstateList": [
+      {
+        "texture": "minecraft:stripped_birch_log_top",
+        "textureTop": "glow_berry_refiner_top",
+        "textureLeft": "glow_berry_refiner_right",
+        "textureFront": "glow_berry_refiner",
+        "textureRight": "glow_berry_refiner_left",
+        "textureBack": "glow_berry_refiner_back",
+        "particleTexture": "",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ]
+      }
+    ]
+  }
+}

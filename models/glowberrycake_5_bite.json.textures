@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "glowberry_cake_block_texture"
+      },
+      "name": "default"
+    }
+  }
+}

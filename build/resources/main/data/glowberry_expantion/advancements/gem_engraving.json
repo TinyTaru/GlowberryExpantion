@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "item": "glowberry_expantion:gem_engraver"
+    },
+    "title": {
+      "translate": "advancements.gem_engraving.title"
+    },
+    "description": {
+      "translate": "advancements.gem_engraving.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gem_engraving_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "glowberry_expantion:gem_engraver"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10,
+    "recipes": [
+      "glowberry_expantion:ingraveddiamondrepair",
+      "glowberry_expantion:ingravedlapisrepair"
+    ]
+  },
+  "parent": "glowberry_expantion:glow_berry_refining"
+}

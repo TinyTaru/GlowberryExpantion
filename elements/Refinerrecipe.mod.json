@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "TAG:minecraft:glowberrys"
+      },
+      {
+        "value": "TAG:minecraft:glowberrys"
+      },
+      {
+        "value": "TAG:minecraft:glowberrys"
+      },
+      {
+        "value": "Blocks.PLANKS#2"
+      },
+      {
+        "value": "CUSTOM:MortarAndPestle"
+      },
+      {
+        "value": "Blocks.PLANKS#2"
+      },
+      {
+        "value": "Blocks.PLANKS#2"
+      },
+      {
+        "value": "Blocks.PLANKS#2"
+      },
+      {
+        "value": "Blocks.PLANKS#2"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GlowberryRefiner"
+    },
+    "name": "refinerrecipe",
+    "namespace": "mod"
+  }
+}

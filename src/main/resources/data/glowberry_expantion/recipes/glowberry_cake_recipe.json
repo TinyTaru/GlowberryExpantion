@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "ebf"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:milk_bucket"
+    },
+    "b": {
+      "item": "minecraft:glow_berries"
+    },
+    "c": {
+      "item": "minecraft:sugar"
+    },
+    "d": {
+      "item": "minecraft:egg"
+    },
+    "e": {
+      "item": "minecraft:wheat"
+    },
+    "f": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "result": {
+    "item": "glowberry_expantion:glowberry_cake",
+    "count": 1
+  }
+}

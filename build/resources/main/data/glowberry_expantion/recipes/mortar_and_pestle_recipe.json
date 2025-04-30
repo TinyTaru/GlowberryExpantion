@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a  ",
+    "aaa",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "tag": "minecraft:stone"
+    }
+  },
+  "result": {
+    "item": "glowberry_expantion:mortar_and_pestle",
+    "count": 1
+  }
+}

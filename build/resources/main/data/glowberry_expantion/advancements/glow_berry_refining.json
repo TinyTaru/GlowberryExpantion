@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "item": "glowberry_expantion:glowberry_refiner"
+    },
+    "title": {
+      "translate": "advancements.glow_berry_refining.title"
+    },
+    "description": {
+      "translate": "advancements.glow_berry_refining.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "glow_berry_refining_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "glowberry_expantion:glowberry_refiner"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10,
+    "recipes": [
+      "glowberry_expantion:engraverrecipe",
+      "glowberry_expantion:chisel_recipe",
+      "glowberry_expantion:glowingbootsrecipe"
+    ]
+  },
+  "parent": "glowberry_expantion:getting_in_to_glowberrys"
+}

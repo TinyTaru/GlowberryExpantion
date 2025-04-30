@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "blockstate=0": {
+      "model": "glowberry_expantion:block/glowberry_refiner"
+    },
+    "blockstate=1": {
+      "model": "glowberry_expantion:block/refiner_blockstate_blockstate_0"
+    }
+  }
+}

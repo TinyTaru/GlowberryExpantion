@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "blockstate=0": {
+      "model": "glowberry_expantion:block/glowberry_cake"
+    },
+    "blockstate=1": {
+      "model": "glowberry_expantion:block/blockstate_glowberry_cake_blockstate_0"
+    },
+    "blockstate=2": {
+      "model": "glowberry_expantion:block/blockstate_glowberry_cake_blockstate_1"
+    },
+    "blockstate=3": {
+      "model": "glowberry_expantion:block/blockstate_glowberry_cake_blockstate_2"
+    },
+    "blockstate=4": {
+      "model": "glowberry_expantion:block/blockstate_glowberry_cake_blockstate_3"
+    },
+    "blockstate=5": {
+      "model": "glowberry_expantion:block/blockstate_glowberry_cake_blockstate_4"
+    }
+  }
+}

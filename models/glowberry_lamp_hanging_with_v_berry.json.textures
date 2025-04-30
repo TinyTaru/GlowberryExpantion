@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "t_glow_b",
+        "2": "top",
+        "3": "glow_berries",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

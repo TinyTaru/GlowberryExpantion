@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "tag": "minecraft:glowberrys"
+    },
+    "b": {
+      "item": "minecraft:birch_planks"
+    },
+    "c": {
+      "item": "glowberry_expantion:mortar_and_pestle"
+    }
+  },
+  "result": {
+    "item": "glowberry_expantion:glowberry_refiner",
+    "count": 1
+  }
+}

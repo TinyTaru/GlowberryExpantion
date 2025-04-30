@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "tries": 5,
+    "feature": {
+      "feature": {
+        "type": "glowberry_expantion:structure_feature",
+        "config": {
+          "structure": "glowberry_expantion:glowvine7",
+          "ignored_blocks": "minecraft:air"
+        }
+      },
+      "placement": []
+    }
+  }
+}

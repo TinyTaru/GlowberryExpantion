@@ -1,0 +1,9 @@
+{
+  "parent": "glowberry_expantion:custom/glowberrycake_2_bite",
+  "textures": {
+    "all": "glowberry_expantion:block/glowberry_cake_block_texture",
+    "particle": "glowberry_expantion:block/glowberry_cake_block_texture",
+    "0": "glowberry_expantion:block/glowberry_cake_block_texture"
+  },
+  "render_type": "solid"
+}

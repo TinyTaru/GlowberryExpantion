@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "glowberry_expantion:lapis_launch_gem"
+    },
+    {
+      "item": "glowberry_expantion:blue_glowberry_extract"
+    }
+  ],
+  "result": {
+    "item": "glowberry_expantion:lapis_launch_gem",
+    "count": 1
+  }
+}

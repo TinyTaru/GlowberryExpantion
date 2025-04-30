@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "xz_spread": 10,
+    "y_spread": 10,
+    "feature": {
+      "feature": {
+        "type": "glowberry_expantion:structure_feature",
+        "config": {
+          "structure": "glowberry_expantion:glowvine2",
+          "ignored_blocks": "minecraft:air"
+        }
+      },
+      "placement": []
+    }
+  }
+}

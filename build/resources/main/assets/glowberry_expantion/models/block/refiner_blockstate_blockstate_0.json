@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "glowberry_expantion:block/minecraft:stripped_birch_log_top",
+    "up": "glowberry_expantion:block/glow_berry_refiner_top",
+    "north": "glowberry_expantion:block/glow_berry_refiner",
+    "east": "glowberry_expantion:block/glow_berry_refiner_right",
+    "south": "glowberry_expantion:block/glow_berry_refiner_back",
+    "west": "glowberry_expantion:block/glow_berry_refiner_left",
+    "particle": "glowberry_expantion:block/minecraft:stripped_birch_log_top"
+  },
+  "render_type": "solid"
+}

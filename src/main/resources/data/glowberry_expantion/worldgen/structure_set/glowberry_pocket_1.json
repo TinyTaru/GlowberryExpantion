@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "glowberry_expantion:glowberry_pocket_1",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 5,
+    "separation": 2,
+    "salt": 1794261485
+  }
+}

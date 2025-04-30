@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/barrel_bottom",
+    "up": "glowberry_expantion:block/gem_engraver_top",
+    "north": "glowberry_expantion:block/gem_engraver_front",
+    "east": "glowberry_expantion:block/gem_engraver_front",
+    "south": "glowberry_expantion:block/gem_engraver_front",
+    "west": "glowberry_expantion:block/gem_engraver_front",
+    "particle": "minecraft:block/barrel_bottom"
+  },
+  "render_type": "solid"
+}

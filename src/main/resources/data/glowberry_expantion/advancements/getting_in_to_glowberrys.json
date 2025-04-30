@@ -1,0 +1,44 @@
+{
+  "display": {
+    "background": "glowberry_expantion:textures/screens/advancement_background.png",
+    "icon": {
+      "item": "minecraft:glow_berries"
+    },
+    "title": {
+      "translate": "advancements.getting_in_to_glowberrys.title"
+    },
+    "description": {
+      "translate": "advancements.getting_in_to_glowberrys.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "getting_in_to_glowberrys_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:glow_berries"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "glowberry_expantion:refinerrecipe",
+      "glowberry_expantion:mortar_and_pestle_recipe",
+      "glowberry_expantion:glowberrypiepecipe"
+    ]
+  }
+}

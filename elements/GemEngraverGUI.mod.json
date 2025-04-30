@@ -1,0 +1,213 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 151,
+          "y": 72
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 259,
+          "y": 72
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "empty_extract_bottle.png",
+          "use1Xscale": false,
+          "x": 152,
+          "y": 73
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 2,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 196,
+          "y": 72
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "load_arrow.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Progress1"
+          },
+          "x": 228,
+          "y": 74
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gui.png",
+          "use1Xscale": false,
+          "x": 174,
+          "y": 73
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 3,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 133,
+          "y": 72
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress_arrow_1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Progress2"
+          },
+          "x": 228,
+          "y": 74
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress_arrow_3.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Progress3"
+          },
+          "x": 228,
+          "y": 74
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress_arrow_4.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Progress4"
+          },
+          "x": 228,
+          "y": 74
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress_arrow_5.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Progress5"
+          },
+          "x": 228,
+          "y": 74
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_progress_arrow_6",
+          "image": "progress_arrow_6.png",
+          "hoveredImage": "",
+          "displayCondition": {
+            "name": "Progress6"
+          },
+          "x": 228,
+          "y": 74
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "burn_progress.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Progress7"
+          },
+          "x": 228,
+          "y": 74
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "empty_chisel.png",
+          "use1Xscale": false,
+          "x": 197,
+          "y": 73
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_add_a_gem",
+          "text": {
+            "fixedValue": "Add a Gem"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 129,
+          "y": 68
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 16,
+      "sy": 16,
+      "ox": 7,
+      "oy": 18,
+      "snapOnGrid": false
+    }
+  }
+}

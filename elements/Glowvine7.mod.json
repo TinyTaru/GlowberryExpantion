@@ -1,0 +1,14 @@
+{
+  "_fv": 66,
+  "_type": "feature",
+  "definition": {
+    "skipPlacement": true,
+    "generationStep": "VEGETAL_DECORATION",
+    "restrictionBiomes": [
+      {
+        "value": "lush_caves"
+      }
+    ],
+    "featurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"feature_container\" deletable=\"false\" x=\"218\" y=\"103\"><value name=\"feature\"><block type=\"feature_random_patch\"><field name=\"tries\">5</field><field name=\"xzSpread\">7</field><field name=\"ySpread\">3</field><value name=\"feature\"><block type=\"feature_custom_structure\"><field name=\"structure\">glowvine7</field><field name=\"x\">0</field><field name=\"y\">0</field><field name=\"z\">0</field><field name=\"random_rotation\">FALSE</field><field name=\"random_mirror\">FALSE</field><value name=\"ignored_blocks\"><block type=\"block_holderset_list\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"1\"></mutation><field name=\"block0\">Blocks.AIR</field></block></value></block></value></block></value><next><block type=\"placement_rarity\"><field name=\"rarity\">30</field><next><block type=\"placement_carving_mask\"><field name=\"carver\">air</field><next><block type=\"placement_environment_scan\"><field name=\"maxSteps\">8</field><field name=\"direction\">UP</field><value name=\"condition\"><block type=\"block_predicate_solid\"><field name=\"x\">0</field><field name=\"y\">0</field><field name=\"z\">0</field></block></value></block></next></block></next></block></next></block><block type=\"feature_simple_block\" x=\"1268\" y=\"73\"><value name=\"block\"><block type=\"blockstate_selector\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"0\"></mutation><field name=\"block\"></field></block></value></block><block type=\"placement_count_on_every_layer\" x=\"938\" y=\"458\"><value name=\"count\"><block type=\"int_provider_constant\"><field name=\"value\">4</field></block></value></block><block type=\"block_predicate_is_air\" x=\"871\" y=\"515\"></block><block type=\"placement_offset\" x=\"521\" y=\"546\"><value name=\"xz\"><block type=\"int_provider_uniform\"><field name=\"min\">-4</field><field name=\"max\">4</field></block></value><value name=\"y\"><block type=\"int_provider_uniform\"><field name=\"min\">-4</field><field name=\"max\">4</field></block></value></block></xml>"
+  }
+}
