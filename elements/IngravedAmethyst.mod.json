@@ -29,7 +29,9 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Don't click on the ceiling"
+      ]
     },
     "glowCondition": {
       "fixedValue": false

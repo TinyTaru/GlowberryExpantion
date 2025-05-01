@@ -1,0 +1,43 @@
+{
+  "_fv": 66,
+  "_type": "jeirecipetype",
+  "definition": {
+    "textureSelector": "jer_gui.png",
+    "width": 176,
+    "height": 86,
+    "icon": {
+      "value": "CUSTOM:GemEngraver"
+    },
+    "craftingtable": {
+      "value": "CUSTOM:GemEngraver"
+    },
+    "enableCraftingtable": true,
+    "title": "Engraver Recipe Type",
+    "slotList": [
+      {
+        "type": "INPUT",
+        "x": 31,
+        "y": 32,
+        "slotid": 0
+      },
+      {
+        "type": "INPUT",
+        "x": 49,
+        "y": 32,
+        "slotid": 1
+      },
+      {
+        "type": "INPUT",
+        "x": 67,
+        "y": 32,
+        "slotid": 2
+      },
+      {
+        "type": "OUTPUT",
+        "x": 121,
+        "y": 32,
+        "slotid": 0
+      }
+    ]
+  }
+}

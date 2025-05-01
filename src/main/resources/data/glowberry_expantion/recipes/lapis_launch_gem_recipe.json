@@ -1,0 +1,18 @@
+{
+  "type": "glowberry_expantion:engraver_recipe_type",
+  "ingredients": [
+    {
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "item": "glowberry_expantion:blue_glowberry_extract"
+    },
+    {
+      "item": "glowberry_expantion:chisel"
+    }
+  ],
+  "output": {
+    "item": "glowberry_expantion:lapis_launch_gem",
+    "count": 1
+  }
+}

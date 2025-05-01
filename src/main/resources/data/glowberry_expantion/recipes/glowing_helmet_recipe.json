@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "glowberry_expantion:glow_berry_extract"
+    },
+    "b": {
+      "item": "minecraft:leather_helmet"
+    }
+  },
+  "result": {
+    "item": "glowberry_expantion:glowing_leather_helmet",
+    "count": 1
+  }
+}
