@@ -296,24 +296,7 @@
         "files": [
           "src/main/java/net/glowberryexpantion/procedures/GlowberryRefinerOnTickUpdateProcedure.java"
         ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
+        "dependencies": []
       },
       "path": "~/Refiner"
     },
@@ -630,6 +613,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/glowberry_expantion/models/item/lapis_launch_gem.json",
+          "src/main/resources/assets/glowberry_expantion/models/item/lapis_launch_gem_0.json",
+          "src/main/resources/assets/glowberry_expantion/models/item/lapis_launch_gem_1.json",
           "src/main/java/net/glowberryexpantion/item/LapisLaunchGemItem.java"
         ]
       }
@@ -856,6 +841,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/glowberryexpantion/item/IngravedAmethystItem.java",
+          "src/main/resources/assets/glowberry_expantion/models/item/ingraved_amethyst_1.json",
+          "src/main/resources/assets/glowberry_expantion/models/item/ingraved_amethyst_0.json",
           "src/main/resources/assets/glowberry_expantion/models/item/ingraved_amethyst.json"
         ]
       }
@@ -1002,7 +989,9 @@
       "registry_name": "ingraved_diamond",
       "metadata": {
         "files": [
+          "src/main/resources/assets/glowberry_expantion/models/item/ingraved_diamond_0.json",
           "src/main/resources/assets/glowberry_expantion/models/item/ingraved_diamond.json",
+          "src/main/resources/assets/glowberry_expantion/models/item/ingraved_diamond_1.json",
           "src/main/java/net/glowberryexpantion/item/IngravedDiamondItem.java"
         ]
       }
@@ -1688,6 +1677,121 @@
           "src/main/resources/data/glowberry_expantion/recipes/lapis_launch_gem_recipe.json"
         ]
       }
+    },
+    {
+      "name": "PurpleOrb",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_orb",
+      "metadata": {
+        "files": [
+          "src/main/java/net/glowberryexpantion/entity/PurpleOrbEntity.java",
+          "src/main/java/net/glowberryexpantion/client/renderer/PurpleOrbRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "IngravedAmethystRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ingraved_amethyst_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/glowberryexpantion/procedures/IngravedAmethystRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PurpleOrbWhileProjectileFlyingTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_orb_while_projectile_flying_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/glowberryexpantion/procedures/PurpleOrbWhileProjectileFlyingTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PupleGlowParticle",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "puple_glow_particle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/glowberry_expantion/particles/puple_glow_particle.json",
+          "src/main/java/net/glowberryexpantion/client/particle/PupleGlowParticleParticle.java"
+        ]
+      }
+    },
+    {
+      "name": "IngravedAmethystPropertyValueProvider",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ingraved_amethyst_property_value_provider",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/glowberryexpantion/procedures/IngravedAmethystPropertyValueProviderProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PurpleGlowberrys",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_glowberrys",
+      "metadata": {
+        "files": [
+          "src/main/java/net/glowberryexpantion/item/PurpleGlowberrysItem.java",
+          "src/main/resources/assets/glowberry_expantion/models/item/purple_glowberrys.json"
+        ]
+      },
+      "path": "~/Purple Glowberry"
     }
   ],
   "variable_elements": [],
@@ -1710,7 +1814,7 @@
       "advancements.getting_in_to_glowberrys.descr": "Now what can I do with them?",
       "item.glowberry_expantion.glow_berry_extract": "Glow Berry Extract",
       "gui.glowberry_expantion.gem_engraver_gui.tooltip_add_a_gem": "Add a Gem",
-      "item.glowberry_expantion.ingraved_emerald": "Ingraved Emerald",
+      "item.glowberry_expantion.ingraved_emerald": "Engraved Emerald",
       "item.glowberry_expantion.glowing_leather_helmet": "Glowing Leather Helmet",
       "jei.glowberry_expantion.blue_glowberry_info": "Found in pockets in and around lush caves",
       "painting.glowberry_expantion.lush_panting.author": "???",
@@ -1731,6 +1835,7 @@
       "item.glowberry_expantion.blue_glowberrys": "Blue Glowberrys",
       "advancements.glow_berry_refining.descr": "What is next?",
       "advancements.glow_berry_refining.title": "Glow Berry Refining?",
+      "item.glowberry_expantion.purple_glowberrys": "Purple Glowberrys",
       "item.glowberry_expantion.the_vined_spawn_egg": "The Vined WIP Spawn Egg",
       "advancements.gem_engraving.title": "Gem Engraving"
     }
@@ -1748,6 +1853,10 @@
       },
       {
         "name": "Guide Book",
+        "children": []
+      },
+      {
+        "name": "Purple Glowberry",
         "children": []
       }
     ]

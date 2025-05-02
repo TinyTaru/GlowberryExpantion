@@ -3,10 +3,47 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "ingraved_diamond",
+    "texture": "ingraved_diamond_full",
     "customModelName": "Normal",
-    "customProperties": {},
-    "states": [],
+    "customProperties": {
+      "glow_level": {
+        "name": "IngravedAmethystPropertyValueProvider"
+      }
+    },
+    "states": [
+      {
+        "renderType": 0,
+        "texture": "ingraved_diamond_half_full",
+        "customModelName": "Normal",
+        "stateMap": [
+          {
+            "property": {
+              "min": -1.7976931348623157E308,
+              "max": 1.7976931348623157E308,
+              "name": "CUSTOM:glow_level",
+              "type": "number"
+            },
+            "value": 22.0
+          }
+        ]
+      },
+      {
+        "renderType": 0,
+        "texture": "ingraved_diamond",
+        "customModelName": "Normal",
+        "stateMap": [
+          {
+            "property": {
+              "min": -1.7976931348623157E308,
+              "max": 1.7976931348623157E308,
+              "name": "CUSTOM:glow_level",
+              "type": "number"
+            },
+            "value": 40.0
+          }
+        ]
+      }
+    ],
     "name": "Engraved Diamond",
     "rarity": "RARE",
     "creativeTabs": [
@@ -30,7 +67,8 @@
     "damageVsEntity": 0.0,
     "specialInformation": {
       "fixedValue": [
-        "Zap!"
+        "Zap!",
+        "Can be refilled if not broken."
       ]
     },
     "glowCondition": {

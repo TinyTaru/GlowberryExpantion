@@ -3,10 +3,47 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "ingraved_amethyst_gem",
+    "texture": "ingraved_amethyst_full",
     "customModelName": "Normal",
-    "customProperties": {},
-    "states": [],
+    "customProperties": {
+      "isglowing": {
+        "name": "IngravedAmethystPropertyValueProvider"
+      }
+    },
+    "states": [
+      {
+        "renderType": 0,
+        "texture": "ingraved_amethyst_half_full",
+        "customModelName": "Normal",
+        "stateMap": [
+          {
+            "property": {
+              "min": -1.7976931348623157E308,
+              "max": 1.7976931348623157E308,
+              "name": "CUSTOM:isglowing",
+              "type": "number"
+            },
+            "value": 32.0
+          }
+        ]
+      },
+      {
+        "renderType": 0,
+        "texture": "ingraved_amethyst_gem",
+        "customModelName": "Normal",
+        "stateMap": [
+          {
+            "property": {
+              "min": -1.7976931348623157E308,
+              "max": 1.7976931348623157E308,
+              "name": "CUSTOM:isglowing",
+              "type": "number"
+            },
+            "value": 55.0
+          }
+        ]
+      }
+    ],
     "name": "Ingraved Amethyst",
     "rarity": "EPIC",
     "creativeTabs": [
@@ -18,7 +55,7 @@
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
-    "damageCount": 32,
+    "damageCount": 64,
     "recipeRemainder": {
       "value": ""
     },
@@ -30,7 +67,8 @@
     "damageVsEntity": 0.0,
     "specialInformation": {
       "fixedValue": [
-        "Don't click on the ceiling"
+        "Don't click on the ceiling",
+        "Can be refilled if not broken."
       ]
     },
     "glowCondition": {
@@ -41,6 +79,9 @@
     "inventoryStackSize": 64,
     "onRightClickedOnBlock": {
       "name": "IngravedAmethystRightclickedOnBlock"
+    },
+    "onEntitySwing": {
+      "name": "IngravedAmethystRightclicked"
     },
     "enableRanged": false,
     "shootConstantly": false,

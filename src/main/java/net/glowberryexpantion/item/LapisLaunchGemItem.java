@@ -23,7 +23,7 @@ public class LapisLaunchGemItem extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level level, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, level, list, flag);
-		list.add(Component.literal("can be refilled if not broken"));
+		list.add(Component.literal("Can be refilled if not broken."));
 	}
 
 	@Override

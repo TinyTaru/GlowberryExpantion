@@ -1,6 +1,20 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "glowberry_expantion:item/lapis_gem_launch"
-  }
+    "layer0": "glowberry_expantion:item/lapis_launch_gem_full"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "glowberry_expantion:lapis_launch_gem_glowlevel": 16
+      },
+      "model": "glowberry_expantion:item/lapis_launch_gem_0"
+    },
+    {
+      "predicate": {
+        "glowberry_expantion:lapis_launch_gem_glowlevel": 30
+      },
+      "model": "glowberry_expantion:item/lapis_launch_gem_1"
+    }
+  ]
 }

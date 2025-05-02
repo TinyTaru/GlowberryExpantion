@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "glowberry_expantion:item/lapis_launch_gem_half_full"
+  }
+}

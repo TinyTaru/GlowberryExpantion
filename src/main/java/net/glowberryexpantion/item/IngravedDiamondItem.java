@@ -23,6 +23,7 @@ public class IngravedDiamondItem extends Item {
 	public void appendHoverText(ItemStack itemstack, Level level, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, level, list, flag);
 		list.add(Component.literal("Zap!"));
+		list.add(Component.literal("Can be refilled if not broken."));
 	}
 
 	@Override

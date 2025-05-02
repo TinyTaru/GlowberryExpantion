@@ -1,6 +1,20 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "glowberry_expantion:item/ingraved_diamond"
-  }
+    "layer0": "glowberry_expantion:item/ingraved_diamond_full"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "glowberry_expantion:ingraved_diamond_glow_level": 22
+      },
+      "model": "glowberry_expantion:item/ingraved_diamond_0"
+    },
+    {
+      "predicate": {
+        "glowberry_expantion:ingraved_diamond_glow_level": 40
+      },
+      "model": "glowberry_expantion:item/ingraved_diamond_1"
+    }
+  ]
 }

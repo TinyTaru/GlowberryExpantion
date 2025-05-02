@@ -1,6 +1,20 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "glowberry_expantion:item/ingraved_amethyst_gem"
-  }
+    "layer0": "glowberry_expantion:item/ingraved_amethyst_full"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "glowberry_expantion:ingraved_amethyst_isglowing": 32
+      },
+      "model": "glowberry_expantion:item/ingraved_amethyst_0"
+    },
+    {
+      "predicate": {
+        "glowberry_expantion:ingraved_amethyst_isglowing": 55
+      },
+      "model": "glowberry_expantion:item/ingraved_amethyst_1"
+    }
+  ]
 }

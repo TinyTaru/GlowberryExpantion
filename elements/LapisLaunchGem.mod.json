@@ -3,10 +3,47 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "lapis_gem_launch",
+    "texture": "lapis_launch_gem_full",
     "customModelName": "Normal",
-    "customProperties": {},
-    "states": [],
+    "customProperties": {
+      "glowlevel": {
+        "name": "IngravedAmethystPropertyValueProvider"
+      }
+    },
+    "states": [
+      {
+        "renderType": 0,
+        "texture": "lapis_launch_gem_half_full",
+        "customModelName": "Normal",
+        "stateMap": [
+          {
+            "property": {
+              "min": -1.7976931348623157E308,
+              "max": 1.7976931348623157E308,
+              "name": "CUSTOM:glowlevel",
+              "type": "number"
+            },
+            "value": 16.0
+          }
+        ]
+      },
+      {
+        "renderType": 0,
+        "texture": "lapis_gem_launch",
+        "customModelName": "Normal",
+        "stateMap": [
+          {
+            "property": {
+              "min": -1.7976931348623157E308,
+              "max": 1.7976931348623157E308,
+              "name": "CUSTOM:glowlevel",
+              "type": "number"
+            },
+            "value": 30.0
+          }
+        ]
+      }
+    ],
     "name": "Engraved Lapis",
     "rarity": "RARE",
     "creativeTabs": [
@@ -30,7 +67,7 @@
     "damageVsEntity": 1.0,
     "specialInformation": {
       "fixedValue": [
-        "can be refilled if not broken"
+        "Can be refilled if not broken."
       ]
     },
     "glowCondition": {

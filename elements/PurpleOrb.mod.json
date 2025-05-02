@@ -1,0 +1,22 @@
+{
+  "_fv": 66,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:IngravedAmethyst"
+    },
+    "showParticles": true,
+    "actionSound": {
+      "value": "block.enchantment_table.use"
+    },
+    "igniteFire": false,
+    "power": 1.0,
+    "damage": 5.0,
+    "knockback": 5,
+    "entityModel": "ModelPuple_Orb_Converted",
+    "customModelTexture": "purpleorbtexture.png",
+    "onFlyingTick": {
+      "name": "PurpleOrbWhileProjectileFlyingTick"
+    }
+  }
+}

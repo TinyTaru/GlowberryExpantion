@@ -41,6 +41,7 @@ public class GlowberryExpantionModTabs {
 				tabData.accept(GlowberryExpantionModItems.GLOWBERRYPIE.get());
 				tabData.accept(GlowberryExpantionModBlocks.GLOWBERRY_CAKE.get().asItem());
 				tabData.accept(GlowberryExpantionModBlocks.GLOWBERRY_LANTERN.get().asItem());
+				tabData.accept(GlowberryExpantionModItems.PURPLE_GLOWBERRYS.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
@@ -54,6 +55,7 @@ public class GlowberryExpantionModTabs {
 			tabData.accept(GlowberryExpantionModItems.GLOWING_LEATHER_BOOTS.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(GlowberryExpantionModItems.BLUE_GLOWBERRYS.get());
+			tabData.accept(GlowberryExpantionModItems.PURPLE_GLOWBERRYS.get());
 		}
 	}
 }

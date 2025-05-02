@@ -20,8 +20,6 @@ public class IngravedDiamondRightclickedOnBlockProcedure {
 			entityToSpawn.moveTo(Vec3.atBottomCenterOf(BlockPos.containing(x, y, z)));;
 			_level.addFreshEntity(entityToSpawn);
 		}
-		if (entity instanceof Player _player)
-			_player.getCooldowns().addCooldown(itemstack.getItem(), 60);
 		{
 			ItemStack _ist = itemstack;
 			if (_ist.hurt(1, RandomSource.create(), null)) {
@@ -29,5 +27,7 @@ public class IngravedDiamondRightclickedOnBlockProcedure {
 				_ist.setDamageValue(0);
 			}
 		}
+		if (entity instanceof Player _player)
+			_player.getCooldowns().addCooldown(itemstack.getItem(), 60);
 	}
 }

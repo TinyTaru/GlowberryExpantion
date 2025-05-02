@@ -17,6 +17,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.glowberryexpantion.entity.TheVinedEntity;
+import net.glowberryexpantion.entity.PurpleOrbEntity;
 import net.glowberryexpantion.GlowberryExpantionMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -26,6 +27,8 @@ public class GlowberryExpantionModEntities {
 			EntityType.Builder.<TheVinedEntity>of(TheVinedEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TheVinedEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<PurpleOrbEntity>> PURPLE_ORB = register("purple_orb",
+			EntityType.Builder.<PurpleOrbEntity>of(PurpleOrbEntity::new, MobCategory.MISC).setCustomClientFactory(PurpleOrbEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
