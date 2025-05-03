@@ -22,9 +22,9 @@ public class LapisLaunchGemRightclickedProcedure {
 		if ((itemstack.getDamageValue() <= 31) == true) {
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
-					_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("glowberry_expantion:engraved_gem_use")), SoundSource.NEUTRAL, 1, 1);
+					_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("glowberry_expantion:engraved_gem_use")), SoundSource.NEUTRAL, (float) 0.2, 1);
 				} else {
-					_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("glowberry_expantion:engraved_gem_use")), SoundSource.NEUTRAL, 1, 1, false);
+					_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("glowberry_expantion:engraved_gem_use")), SoundSource.NEUTRAL, (float) 0.2, 1, false);
 				}
 			}
 			{
