@@ -144,6 +144,13 @@ public class GemEngraverTickProcedure {
 				if (world instanceof Level _level)
 					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 			}
+			if (world instanceof Level _level) {
+				if (!_level.isClientSide()) {
+					_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("glowberry_expantion:engraver_use")), SoundSource.NEUTRAL, 1, 1);
+				} else {
+					_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("glowberry_expantion:engraver_use")), SoundSource.NEUTRAL, 1, 1, false);
+				}
+			}
 			GlowberryExpantionMod.queueServerWork(20, () -> {
 				if (!world.isClientSide()) {
 					BlockPos _bp = BlockPos.containing(x, y, z);
@@ -195,13 +202,6 @@ public class GemEngraverTickProcedure {
 										_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 								}
 								GlowberryExpantionMod.queueServerWork(20, () -> {
-									if (world instanceof Level _level) {
-										if (!_level.isClientSide()) {
-											_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ui.stonecutter.take_result")), SoundSource.NEUTRAL, 1, 1);
-										} else {
-											_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ui.stonecutter.take_result")), SoundSource.NEUTRAL, 1, 1, false);
-										}
-									}
 									{
 										BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 										if (_ent != null) {
@@ -367,6 +367,13 @@ public class GemEngraverTickProcedure {
 					if (world instanceof Level _level)
 						_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 				}
+				if (world instanceof Level _level) {
+					if (!_level.isClientSide()) {
+						_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("glowberry_expantion:engraver_use")), SoundSource.NEUTRAL, 1, 1);
+					} else {
+						_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("glowberry_expantion:engraver_use")), SoundSource.NEUTRAL, 1, 1, false);
+					}
+				}
 				GlowberryExpantionMod.queueServerWork(20, () -> {
 					if (!world.isClientSide()) {
 						BlockPos _bp = BlockPos.containing(x, y, z);
@@ -418,13 +425,6 @@ public class GemEngraverTickProcedure {
 											_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 									}
 									GlowberryExpantionMod.queueServerWork(20, () -> {
-										if (world instanceof Level _level) {
-											if (!_level.isClientSide()) {
-												_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.brewing_stand.brew")), SoundSource.NEUTRAL, 1, 1);
-											} else {
-												_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.brewing_stand.brew")), SoundSource.NEUTRAL, 1, 1, false);
-											}
-										}
 										{
 											BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 											if (_ent != null) {

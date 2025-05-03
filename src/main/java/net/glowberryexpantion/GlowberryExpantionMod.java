@@ -19,6 +19,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.glowberryexpantion.world.features.StructureFeature;
 import net.glowberryexpantion.init.GlowberryExpantionModTabs;
+import net.glowberryexpantion.init.GlowberryExpantionModSounds;
 import net.glowberryexpantion.init.GlowberryExpantionModParticleTypes;
 import net.glowberryexpantion.init.GlowberryExpantionModPaintings;
 import net.glowberryexpantion.init.GlowberryExpantionModMenus;
@@ -46,7 +47,7 @@ public class GlowberryExpantionMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		GlowberryExpantionModSounds.REGISTRY.register(bus);
 		GlowberryExpantionModBlocks.REGISTRY.register(bus);
 		GlowberryExpantionModBlockEntities.REGISTRY.register(bus);
 		GlowberryExpantionModItems.REGISTRY.register(bus);

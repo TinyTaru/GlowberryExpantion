@@ -1,0 +1,35 @@
+{
+  "engraved_gem_use": {
+    "sounds": [
+      {
+        "name": "glowberry_expantion:cast_12",
+        "stream": false
+      },
+      {
+        "name": "glowberry_expantion:cast_13",
+        "stream": false
+      },
+      {
+        "name": "glowberry_expantion:cast_14",
+        "stream": false
+      },
+      {
+        "name": "glowberry_expantion:cast_15",
+        "stream": false
+      },
+      {
+        "name": "glowberry_expantion:cast_16",
+        "stream": false
+      }
+    ]
+  },
+  "engraver_use": {
+    "subtitle": "subtitles.engraver_use",
+    "sounds": [
+      {
+        "name": "glowberry_expantion:11l-rapid_dinging_sound_edit1",
+        "stream": false
+      }
+    ]
+  }
+}
