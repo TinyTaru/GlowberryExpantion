@@ -656,6 +656,18 @@
             "type": "itemstack"
           },
           {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
             "name": "world",
             "type": "world"
           }
@@ -1824,6 +1836,14 @@
       ],
       "category": "player",
       "subtitle": ""
+    },
+    {
+      "name": "engraver_use",
+      "files": [
+        "11l-rapid_dinging_sound_edit1"
+      ],
+      "category": "block",
+      "subtitle": "ching ching ching"
     }
   ],
   "tag_elements": {
@@ -1858,6 +1878,7 @@
       "item.glowberry_expantion.ingraved_amethyst": "Ingraved Amethyst",
       "block.glowberry_expantion.gem_engraver": "Gem Engraver",
       "item.glowberry_expantion.glowberrypie": "Glowberry Pie",
+      "subtitles.engraver_use": "ching ching ching",
       "block.glowberry_expantion.glowvineblue": "Blue Glowberry Vine",
       "block.glowberry_expantion.glowberry_lantern": "Glowberry Lantern Frame",
       "entity.glowberry_expantion.the_vined": "The Vined WIP",

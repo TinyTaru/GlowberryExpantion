@@ -656,6 +656,18 @@
             "type": "itemstack"
           },
           {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
             "name": "world",
             "type": "world"
           }
@@ -1809,6 +1821,22 @@
         ]
       },
       "path": "~/Purple Glowberry"
+    },
+    {
+      "name": "GlowingChiseledStone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowing_chiseled_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/glowberry_expantion/loot_tables/blocks/glowing_chiseled_stone.json",
+          "src/main/resources/assets/glowberry_expantion/models/block/glowing_chiseled_stone.json",
+          "src/main/resources/assets/glowberry_expantion/blockstates/glowing_chiseled_stone.json",
+          "src/main/java/net/glowberryexpantion/block/GlowingChiseledStoneBlock.java",
+          "src/main/resources/assets/glowberry_expantion/models/item/glowing_chiseled_stone.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1844,6 +1872,7 @@
   "language_map": {
     "en_us": {
       "block.glowberry_expantion.glowberry_refiner": "Glowberry Refiner",
+      "block.glowberry_expantion.glowing_chiseled_stone": "Glowing Chiseled Stone",
       "item.glowberry_expantion.lapis_launch_gem": "Engraved Lapis",
       "advancements.gem_engraving.descr": "And what does this have to do with glowberrys?",
       "advancements.getting_in_to_glowberrys.title": "Getting In To Glowberrys",

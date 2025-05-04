@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:chiseled_stone_bricks"
+    },
+    "b": {
+      "item": "glowberry_expantion:blue_glowberry_extract"
+    }
+  },
+  "result": {
+    "item": "glowberry_expantion:glowing_chiseled_stone",
+    "count": 4
+  }
+}

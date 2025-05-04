@@ -296,7 +296,24 @@
         "files": [
           "src/main/java/net/glowberryexpantion/procedures/GlowberryRefinerOnTickUpdateProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       },
       "path": "~/Refiner"
     },
@@ -637,6 +654,18 @@
           {
             "name": "itemstack",
             "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
           },
           {
             "name": "world",
@@ -1792,6 +1821,22 @@
         ]
       },
       "path": "~/Purple Glowberry"
+    },
+    {
+      "name": "GlowingChiseledStone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowing_chiseled_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/glowberry_expantion/loot_tables/blocks/glowing_chiseled_stone.json",
+          "src/main/resources/assets/glowberry_expantion/models/block/glowing_chiseled_stone.json",
+          "src/main/resources/assets/glowberry_expantion/blockstates/glowing_chiseled_stone.json",
+          "src/main/java/net/glowberryexpantion/block/GlowingChiseledStoneBlock.java",
+          "src/main/resources/assets/glowberry_expantion/models/item/glowing_chiseled_stone.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1807,9 +1852,20 @@
       ],
       "category": "player",
       "subtitle": ""
+    },
+    {
+      "name": "engraver_use",
+      "files": [
+        "11l-rapid_dinging_sound_edit1"
+      ],
+      "category": "block",
+      "subtitle": "ching ching ching"
     }
   ],
   "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:GlowingChiseledStone"
+    ],
     "ITEMS:minecraft:glowberrys": [
       "CUSTOM:BlueGlowberrys",
       "Items.GLOW_BERRIES"
@@ -1819,6 +1875,7 @@
   "language_map": {
     "en_us": {
       "block.glowberry_expantion.glowberry_refiner": "Glowberry Refiner",
+      "block.glowberry_expantion.glowing_chiseled_stone": "Glowing Chiseled Stone",
       "item.glowberry_expantion.lapis_launch_gem": "Engraved Lapis",
       "advancements.gem_engraving.descr": "And what does this have to do with glowberrys?",
       "advancements.getting_in_to_glowberrys.title": "Getting In To Glowberrys",
@@ -1830,6 +1887,7 @@
       "item.glowberry_expantion.ingraved_emerald": "Engraved Emerald",
       "item.glowberry_expantion.glowing_leather_helmet": "Glowing Leather Helmet",
       "jei.glowberry_expantion.blue_glowberry_info": "Found in pockets in and around lush caves",
+      "subtitles.engaver_use": "ding ding ding",
       "painting.glowberry_expantion.lush_panting.author": "???",
       "item.glowberry_expantion.lapis_launch_gem_empty": "Lapis Launch Gem Empty",
       "item.glowberry_expantion.glowing_leather_boots": "Glowing Leather Boots",
@@ -1840,6 +1898,7 @@
       "item.glowberry_expantion.ingraved_amethyst": "Ingraved Amethyst",
       "block.glowberry_expantion.gem_engraver": "Gem Engraver",
       "item.glowberry_expantion.glowberrypie": "Glowberry Pie",
+      "subtitles.engraver_use": "ching ching ching",
       "block.glowberry_expantion.glowvineblue": "Blue Glowberry Vine",
       "block.glowberry_expantion.glowberry_lantern": "Glowberry Lantern Frame",
       "entity.glowberry_expantion.the_vined": "The Vined WIP",

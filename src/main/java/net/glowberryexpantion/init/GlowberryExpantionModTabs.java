@@ -42,11 +42,14 @@ public class GlowberryExpantionModTabs {
 				tabData.accept(GlowberryExpantionModBlocks.GLOWBERRY_CAKE.get().asItem());
 				tabData.accept(GlowberryExpantionModBlocks.GLOWBERRY_LANTERN.get().asItem());
 				tabData.accept(GlowberryExpantionModItems.PURPLE_GLOWBERRYS.get());
+				tabData.accept(GlowberryExpantionModBlocks.GLOWING_CHISELED_STONE.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
-		if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
+		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+			tabData.accept(GlowberryExpantionModBlocks.GLOWING_CHISELED_STONE.get().asItem());
+		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(GlowberryExpantionModBlocks.GLOWBERRY_REFINER.get().asItem());
 			tabData.accept(GlowberryExpantionModBlocks.GEM_ENGRAVER.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
