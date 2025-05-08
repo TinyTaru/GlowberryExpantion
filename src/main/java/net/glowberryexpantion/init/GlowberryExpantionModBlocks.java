@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.glowberryexpantion.block.GlowvinepurpleBlock;
 import net.glowberryexpantion.block.GlowvineblueBlock;
 import net.glowberryexpantion.block.GlowingChiseledStoneBlock;
 import net.glowberryexpantion.block.GlowberryRefinerBlock;
@@ -26,6 +27,7 @@ public class GlowberryExpantionModBlocks {
 	public static final RegistryObject<Block> GLOWBERRY_CAKE = REGISTRY.register("glowberry_cake", () -> new GlowberryCakeBlock());
 	public static final RegistryObject<Block> GLOWBERRY_LANTERN = REGISTRY.register("glowberry_lantern", () -> new GlowberryLanternBlock());
 	public static final RegistryObject<Block> GLOWING_CHISELED_STONE = REGISTRY.register("glowing_chiseled_stone", () -> new GlowingChiseledStoneBlock());
+	public static final RegistryObject<Block> GLOWVINEPURPLE = REGISTRY.register("glowvinepurple", () -> new GlowvinepurpleBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

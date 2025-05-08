@@ -60,6 +60,7 @@ public class GlowberryExpantionModItems {
 	public static final RegistryObject<Item> GLOWBERRY_LANTERN = block(GlowberryExpantionModBlocks.GLOWBERRY_LANTERN);
 	public static final RegistryObject<Item> PURPLE_GLOWBERRYS = REGISTRY.register("purple_glowberrys", () -> new PurpleGlowberrysItem());
 	public static final RegistryObject<Item> GLOWING_CHISELED_STONE = block(GlowberryExpantionModBlocks.GLOWING_CHISELED_STONE);
+	public static final RegistryObject<Item> GLOWVINEPURPLE = block(GlowberryExpantionModBlocks.GLOWVINEPURPLE);
 
 	// Start of user code block custom items
 	// End of user code block custom items

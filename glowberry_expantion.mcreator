@@ -1849,6 +1849,112 @@
           "src/main/resources/data/glowberry_expantion/recipes/glowing_stone_recipe.json"
         ]
       }
+    },
+    {
+      "name": "Glowvinepurple",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowvinepurple",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/glowberry_expantion/models/item/glowvinepurple.json",
+          "src/main/resources/data/glowberry_expantion/loot_tables/blocks/glowvinepurple.json",
+          "src/main/java/net/glowberryexpantion/block/GlowvinepurpleBlock.java",
+          "src/main/resources/assets/glowberry_expantion/blockstates/glowvinepurple.json",
+          "src/main/resources/assets/glowberry_expantion/models/block/glowvinepurple.json"
+        ]
+      },
+      "path": "~/Purple Glowberry"
+    },
+    {
+      "name": "GlowvinepurpleBlockstate",
+      "type": "blockstates",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowvinepurple_blockstate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/glowberry_expantion/models/block/glowvinepurple_blockstate_blockstate_1.json",
+          "src/main/resources/assets/glowberry_expantion/models/block/glowvinepurple_blockstate_blockstate_2.json",
+          "src/main/resources/assets/glowberry_expantion/models/block/glowvinepurple_blockstate_blockstate_0.json"
+        ]
+      },
+      "path": "~/Purple Glowberry"
+    },
+    {
+      "name": "GlowvinepurpleOnBlockRightClick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowvinepurple_on_block_right_click",
+      "metadata": {
+        "files": [
+          "src/main/java/net/glowberryexpantion/procedures/GlowvinepurpleOnBlockRightClickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Purple Glowberry"
+    },
+    {
+      "name": "PurpleGlowberrysRightClick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_glowberrys_right_click",
+      "metadata": {
+        "files": [
+          "src/main/java/net/glowberryexpantion/procedures/PurpleGlowberrysRightClickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Purple Glowberry"
     }
   ],
   "variable_elements": [],
@@ -1875,8 +1981,14 @@
     }
   ],
   "tag_elements": {
+    "ITEMS:mod:pie": [
+      "CUSTOM:Glowberrypie"
+    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:GlowingChiseledStone"
+    ],
+    "BLOCKS:mod:cake": [
+      "CUSTOM:GlowberryCake"
     ],
     "ITEMS:minecraft:glowberrys": [
       "CUSTOM:BlueGlowberrys",
@@ -1889,6 +2001,7 @@
       "block.glowberry_expantion.glowberry_refiner": "Glowberry Refiner",
       "block.glowberry_expantion.glowing_chiseled_stone": "Glowing Chiseled Stone",
       "item.glowberry_expantion.lapis_launch_gem": "Engraved Lapis",
+      "block.glowberry_expantion.glowvinepurple": "Blue Glowberry Vine",
       "advancements.gem_engraving.descr": "And what does this have to do with glowberrys?",
       "advancements.getting_in_to_glowberrys.title": "Getting In To Glowberrys",
       "item.glowberry_expantion.blue_glowberry_extract": "Blue Glowberry Extract",

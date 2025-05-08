@@ -41,7 +41,7 @@
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onRightClickedOnBlock": {
-      "name": "BlueGlowberrysRightclickedOnBlock"
+      "name": "PurpleGlowberrysRightClick"
     },
     "enableRanged": false,
     "shootConstantly": false,
