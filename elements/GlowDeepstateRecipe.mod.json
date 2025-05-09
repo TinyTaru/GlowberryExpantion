@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.CHISELED_DEEPSLATE"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.CHISELED_DEEPSLATE"
+      },
+      {
+        "value": "CUSTOM:PurpleGlowberryExtract"
+      },
+      {
+        "value": "Blocks.CHISELED_DEEPSLATE"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.CHISELED_DEEPSLATE"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GlowingChiseledDeepslate"
+    },
+    "name": "glow_deepstate_recipe",
+    "namespace": "mod"
+  }
+}

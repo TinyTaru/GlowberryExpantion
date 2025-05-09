@@ -16,11 +16,14 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.ArmorItem;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.client.renderer.item.ItemProperties;
 
 import net.glowberryexpantion.procedures.IngravedAmethystPropertyValueProviderProcedure;
+import net.glowberryexpantion.item.VinedBlossemItem;
 import net.glowberryexpantion.item.PurpleGlowberrysItem;
+import net.glowberryexpantion.item.PurpleGlowberryExtractItem;
 import net.glowberryexpantion.item.MortarAndPestleItem;
 import net.glowberryexpantion.item.LapisLaunchGemItem;
 import net.glowberryexpantion.item.LapisLaunchGemEmptyItem;
@@ -61,6 +64,9 @@ public class GlowberryExpantionModItems {
 	public static final RegistryObject<Item> PURPLE_GLOWBERRYS = REGISTRY.register("purple_glowberrys", () -> new PurpleGlowberrysItem());
 	public static final RegistryObject<Item> GLOWING_CHISELED_STONE = block(GlowberryExpantionModBlocks.GLOWING_CHISELED_STONE);
 	public static final RegistryObject<Item> GLOWVINEPURPLE = block(GlowberryExpantionModBlocks.GLOWVINEPURPLE);
+	public static final RegistryObject<VinedBlossemItem> VINED_BLOSSEM_HELMET = REGISTRY.register("vined_blossem_helmet", () -> new VinedBlossemItem(ArmorItem.Type.HELMET, new Item.Properties()));
+	public static final RegistryObject<Item> PURPLE_GLOWBERRY_EXTRACT = REGISTRY.register("purple_glowberry_extract", () -> new PurpleGlowberryExtractItem());
+	public static final RegistryObject<Item> GLOWING_CHISELED_DEEPSLATE = block(GlowberryExpantionModBlocks.GLOWING_CHISELED_DEEPSLATE);
 
 	// Start of user code block custom items
 	// End of user code block custom items

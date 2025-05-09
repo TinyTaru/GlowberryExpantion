@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "glowberry_expantion:block/glowing_chiseled_deepslate",
+    "up": "glowberry_expantion:block/glowing_chiseled_deepslate",
+    "north": "glowberry_expantion:block/glowing_chiseled_deepslate",
+    "east": "glowberry_expantion:block/glowing_chiseled_deepslate",
+    "south": "glowberry_expantion:block/glowing_chiseled_deepslate",
+    "west": "glowberry_expantion:block/glowing_chiseled_deepslate",
+    "particle": "glowberry_expantion:block/glowing_chiseled_deepslate"
+  },
+  "render_type": "solid"
+}

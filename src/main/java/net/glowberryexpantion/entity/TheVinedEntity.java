@@ -28,6 +28,7 @@ import net.minecraft.world.entity.Pose;
 import net.minecraft.world.entity.MobType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.EntityDimensions;
 import net.minecraft.world.damagesource.DamageSource;
@@ -64,6 +65,7 @@ public class TheVinedEntity extends Monster implements GeoEntity {
 		xpReward = 10;
 		setNoAi(false);
 		setMaxUpStep(0.6f);
+		this.setItemSlot(EquipmentSlot.HEAD, new ItemStack(GlowberryExpantionModItems.VINED_BLOSSEM_HELMET.get()));
 	}
 
 	@Override

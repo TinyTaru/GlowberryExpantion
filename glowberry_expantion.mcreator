@@ -1955,6 +1955,179 @@
         ]
       },
       "path": "~/Purple Glowberry"
+    },
+    {
+      "name": "VinedBlossem",
+      "type": "animatedarmor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vined_blossem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/glowberryexpantion/client/renderer/VinedBlossemArmorRenderer.java",
+          "src/main/java/net/glowberryexpantion/item/model/VinedBlossemModel.java",
+          "src/main/resources/assets/glowberry_expantion/models/item/vined_blossem_helmet.json",
+          "src/main/java/net/glowberryexpantion/item/VinedBlossemItem.java"
+        ]
+      }
+    },
+    {
+      "name": "VinedtestOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vinedtest_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/glowberryexpantion/procedures/VinedtestOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PurpleGlowberryExtract",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_glowberry_extract",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/glowberry_expantion/models/item/purple_glowberry_extract.json",
+          "src/main/java/net/glowberryexpantion/item/PurpleGlowberryExtractItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GlowingChiseledDeepslate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowing_chiseled_deepslate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/glowberry_expantion/models/block/glowing_chiseled_deepslate.json",
+          "src/main/resources/assets/glowberry_expantion/blockstates/glowing_chiseled_deepslate.json",
+          "src/main/java/net/glowberryexpantion/block/GlowingChiseledDeepslateBlock.java",
+          "src/main/resources/data/glowberry_expantion/loot_tables/blocks/glowing_chiseled_deepslate.json",
+          "src/main/resources/assets/glowberry_expantion/models/item/glowing_chiseled_deepslate.json"
+        ]
+      }
+    },
+    {
+      "name": "GlowDeepstateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glow_deepstate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/glowberry_expantion/recipes/glow_deepstate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GlowvinePurpleGrow",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowvine_purple_grow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/glowberryexpantion/procedures/GlowvinePurpleGrowProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Purple Glowberry"
+    },
+    {
+      "name": "GlowberryRuin1",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowberry_ruin_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/glowberry_expantion/worldgen/structure/glowberry_ruin_1.json",
+          "src/main/resources/data/glowberry_expantion/worldgen/template_pool/glowberry_ruin_1.json",
+          "src/main/resources/data/glowberry_expantion/worldgen/structure_set/glowberry_ruin_1.json"
+        ]
+      }
+    },
+    {
+      "name": "GlowberryRuin2",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowberry_ruin_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/glowberry_expantion/worldgen/template_pool/glowberry_ruin_2.json",
+          "src/main/resources/data/glowberry_expantion/worldgen/structure/glowberry_ruin_2.json",
+          "src/main/resources/data/glowberry_expantion/worldgen/structure_set/glowberry_ruin_2.json"
+        ]
+      }
+    },
+    {
+      "name": "GlowberryRuin3",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowberry_ruin_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/glowberry_expantion/worldgen/structure_set/glowberry_ruin_3.json",
+          "src/main/resources/data/glowberry_expantion/worldgen/structure/glowberry_ruin_3.json",
+          "src/main/resources/data/glowberry_expantion/worldgen/template_pool/glowberry_ruin_3.json"
+        ]
+      }
+    },
+    {
+      "name": "GlowberryRuin4",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowberry_ruin_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/glowberry_expantion/worldgen/template_pool/glowberry_ruin_4.json",
+          "src/main/resources/data/glowberry_expantion/worldgen/structure_set/glowberry_ruin_4.json",
+          "src/main/resources/data/glowberry_expantion/worldgen/structure/glowberry_ruin_4.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1985,6 +2158,7 @@
       "CUSTOM:Glowberrypie"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:GlowingChiseledDeepslate",
       "~CUSTOM:GlowingChiseledStone"
     ],
     "BLOCKS:mod:cake": [
@@ -2004,9 +2178,13 @@
       "block.glowberry_expantion.glowvinepurple": "Blue Glowberry Vine",
       "advancements.gem_engraving.descr": "And what does this have to do with glowberrys?",
       "advancements.getting_in_to_glowberrys.title": "Getting In To Glowberrys",
+      "item.glowberry_expantion.purple_glowberry_extract": "Purple Glowberry Extract",
+      "item.glowberry_expantion.vined_blossem_helmet": "Vined Blossem Helmet",
+      "item.glowberry_expantion.vined_blossem_chestplate": "Vined Blossem Chestplate",
       "item.glowberry_expantion.blue_glowberry_extract": "Blue Glowberry Extract",
       "block.glowberry_expantion.glowberry_cake": "Glowberry Cake",
       "advancements.getting_in_to_glowberrys.descr": "Now what can I do with them?",
+      "item.glowberry_expantion.vined_blossem_leggings": "Vined Blossem Leggings",
       "item.glowberry_expantion.glow_berry_extract": "Glow Berry Extract",
       "gui.glowberry_expantion.gem_engraver_gui.tooltip_add_a_gem": "Add a Gem",
       "item.glowberry_expantion.ingraved_emerald": "Engraved Emerald",
@@ -2015,6 +2193,7 @@
       "subtitles.engaver_use": "ding ding ding",
       "painting.glowberry_expantion.lush_panting.author": "???",
       "item.glowberry_expantion.lapis_launch_gem_empty": "Lapis Launch Gem Empty",
+      "block.glowberry_expantion.glowing_chiseled_deepslate": "Glowing Chiseled Deepslate",
       "item.glowberry_expantion.glowing_leather_boots": "Glowing Leather Boots",
       "painting.glowberry_expantion.lush_panting.title": "Lush Panting",
       "item.glowberry_expantion.ingraved_diamond": "Engraved Diamond",
@@ -2031,6 +2210,7 @@
       "item.glowberry_expantion.mortar_and_pestle": "Mortar And Pestle",
       "item.glowberry_expantion.blue_glowberrys": "Blue Glowberrys",
       "advancements.glow_berry_refining.descr": "What is next?",
+      "item.glowberry_expantion.vined_blossem_boots": "Vined Blossem Boots",
       "advancements.glow_berry_refining.title": "Glow Berry Refining?",
       "item.glowberry_expantion.purple_glowberrys": "Purple Glowberrys",
       "item.glowberry_expantion.the_vined_spawn_egg": "The Vined WIP Spawn Egg",
@@ -2055,6 +2235,10 @@
       },
       {
         "name": "Purple Glowberry",
+        "children": []
+      },
+      {
+        "name": "Green Glowberry",
         "children": []
       }
     ]

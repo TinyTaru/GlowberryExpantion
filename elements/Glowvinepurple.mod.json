@@ -65,7 +65,7 @@
     },
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": "CUSTOM:BlueGlowberrys"
+      "value": "CUSTOM:PurpleGlowberrys"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
@@ -124,7 +124,7 @@
       "name": "GlowvineblueNeighbourBlockChanges"
     },
     "onTickUpdate": {
-      "name": "GlowvineblueGrow"
+      "name": "GlowvinePurpleGrow"
     },
     "generateFeature": false,
     "restrictionBiomes": [],

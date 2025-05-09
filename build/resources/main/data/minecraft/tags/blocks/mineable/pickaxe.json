@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "glowberry_expantion:glowing_chiseled_deepslate",
     "glowberry_expantion:glowing_chiseled_stone"
   ]
 }

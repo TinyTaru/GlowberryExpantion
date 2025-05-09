@@ -30,7 +30,7 @@ import net.minecraft.core.BlockPos;
 
 import net.glowberryexpantion.procedures.GlowvinepurpleOnBlockRightClickProcedure;
 import net.glowberryexpantion.procedures.GlowvineblueNeighbourBlockChangesProcedure;
-import net.glowberryexpantion.procedures.GlowvineblueGrowProcedure;
+import net.glowberryexpantion.procedures.GlowvinePurpleGrowProcedure;
 import net.glowberryexpantion.init.GlowberryExpantionModItems;
 
 public class GlowvinepurpleBlock extends Block implements BonemealableBlock {
@@ -80,7 +80,7 @@ public class GlowvinepurpleBlock extends Block implements BonemealableBlock {
 
 	@Override
 	public ItemStack getCloneItemStack(BlockState state, HitResult target, BlockGetter world, BlockPos pos, Player player) {
-		return new ItemStack(GlowberryExpantionModItems.BLUE_GLOWBERRYS.get());
+		return new ItemStack(GlowberryExpantionModItems.PURPLE_GLOWBERRYS.get());
 	}
 
 	@Override
@@ -95,7 +95,7 @@ public class GlowvinepurpleBlock extends Block implements BonemealableBlock {
 		int x = pos.getX();
 		int y = pos.getY();
 		int z = pos.getZ();
-		GlowvineblueGrowProcedure.execute(world, x, y, z);
+		GlowvinePurpleGrowProcedure.execute(world, x, y, z);
 	}
 
 	@Override

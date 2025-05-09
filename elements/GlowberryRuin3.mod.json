@@ -1,0 +1,30 @@
+{
+  "_fv": 66,
+  "_type": "structure",
+  "definition": {
+    "structure": "glowberry_ruin_3",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 19,
+    "separation": 7,
+    "restrictionBiomes": [
+      {
+        "value": "#minecraft:is_overworld"
+      }
+    ],
+    "terrainAdaptation": "none",
+    "generationStep": "UNDERGROUND_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": true,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": -60,
+    "startHeightMax": 5,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
+  }
+}

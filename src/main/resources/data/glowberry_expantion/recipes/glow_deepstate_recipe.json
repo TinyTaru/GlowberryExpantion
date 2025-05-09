@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:chiseled_deepslate"
+    },
+    "b": {
+      "item": "glowberry_expantion:purple_glowberry_extract"
+    }
+  },
+  "result": {
+    "item": "glowberry_expantion:glowing_chiseled_deepslate",
+    "count": 4
+  }
+}

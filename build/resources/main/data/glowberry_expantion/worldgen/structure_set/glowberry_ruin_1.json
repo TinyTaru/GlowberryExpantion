@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "glowberry_expantion:glowberry_ruin_1",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 15,
+    "separation": 5,
+    "salt": 966503202
+  }
+}
