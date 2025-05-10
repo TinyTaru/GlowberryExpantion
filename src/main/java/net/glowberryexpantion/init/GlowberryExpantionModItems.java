@@ -30,6 +30,7 @@ import net.glowberryexpantion.item.LapisLaunchGemEmptyItem;
 import net.glowberryexpantion.item.IngravedEmeraldItem;
 import net.glowberryexpantion.item.IngravedDiamondItem;
 import net.glowberryexpantion.item.IngravedAmethystItem;
+import net.glowberryexpantion.item.GreenGlowberrysItem;
 import net.glowberryexpantion.item.GlowingLeatherItem;
 import net.glowberryexpantion.item.GlowberrypieItem;
 import net.glowberryexpantion.item.GlowBerryExtractItem;
@@ -67,6 +68,8 @@ public class GlowberryExpantionModItems {
 	public static final RegistryObject<VinedBlossemItem> VINED_BLOSSEM_HELMET = REGISTRY.register("vined_blossem_helmet", () -> new VinedBlossemItem(ArmorItem.Type.HELMET, new Item.Properties()));
 	public static final RegistryObject<Item> PURPLE_GLOWBERRY_EXTRACT = REGISTRY.register("purple_glowberry_extract", () -> new PurpleGlowberryExtractItem());
 	public static final RegistryObject<Item> GLOWING_CHISELED_DEEPSLATE = block(GlowberryExpantionModBlocks.GLOWING_CHISELED_DEEPSLATE);
+	public static final RegistryObject<Item> GREEN_GLOWBERRYS = REGISTRY.register("green_glowberrys", () -> new GreenGlowberrysItem());
+	public static final RegistryObject<Item> GLOWVINEGREEN = block(GlowberryExpantionModBlocks.GLOWVINEGREEN);
 
 	// Start of user code block custom items
 	// End of user code block custom items

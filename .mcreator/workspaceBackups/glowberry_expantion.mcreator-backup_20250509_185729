@@ -2086,6 +2086,94 @@
           "src/main/resources/data/glowberry_expantion/worldgen/structure_set/glowberry_ruin_1.json"
         ]
       }
+    },
+    {
+      "name": "GlowberryRuin2",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowberry_ruin_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/glowberry_expantion/worldgen/template_pool/glowberry_ruin_2.json",
+          "src/main/resources/data/glowberry_expantion/worldgen/structure/glowberry_ruin_2.json",
+          "src/main/resources/data/glowberry_expantion/worldgen/structure_set/glowberry_ruin_2.json"
+        ]
+      }
+    },
+    {
+      "name": "GlowberryRuin3",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowberry_ruin_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/glowberry_expantion/worldgen/structure_set/glowberry_ruin_3.json",
+          "src/main/resources/data/glowberry_expantion/worldgen/structure/glowberry_ruin_3.json",
+          "src/main/resources/data/glowberry_expantion/worldgen/template_pool/glowberry_ruin_3.json"
+        ]
+      }
+    },
+    {
+      "name": "GlowberryRuin4",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowberry_ruin_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/glowberry_expantion/worldgen/template_pool/glowberry_ruin_4.json",
+          "src/main/resources/data/glowberry_expantion/worldgen/structure_set/glowberry_ruin_4.json",
+          "src/main/resources/data/glowberry_expantion/worldgen/structure/glowberry_ruin_4.json"
+        ]
+      }
+    },
+    {
+      "name": "GreenGlowberrys",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_glowberrys",
+      "metadata": {
+        "files": [
+          "src/main/java/net/glowberryexpantion/item/GreenGlowberrysItem.java",
+          "src/main/resources/assets/glowberry_expantion/models/item/green_glowberrys.json"
+        ]
+      },
+      "path": "~/Green Glowberry"
+    },
+    {
+      "name": "Glowvinegreen",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowvinegreen",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/glowberry_expantion/models/block/glowvinegreen.json",
+          "src/main/resources/data/glowberry_expantion/loot_tables/blocks/glowvinegreen.json",
+          "src/main/resources/assets/glowberry_expantion/blockstates/glowvinegreen.json",
+          "src/main/java/net/glowberryexpantion/block/GlowvinegreenBlock.java",
+          "src/main/resources/assets/glowberry_expantion/models/item/glowvinegreen.json"
+        ]
+      },
+      "path": "~/Green Glowberry"
+    },
+    {
+      "name": "Glowvinegreentip",
+      "type": "blockstates",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowvinegreentip",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/glowberry_expantion/models/block/glowvinegreentip_blockstate_0.json",
+          "src/main/resources/assets/glowberry_expantion/models/block/glowvinegreentip_blockstate_1.json",
+          "src/main/resources/assets/glowberry_expantion/models/block/glowvinegreentip_blockstate_2.json"
+        ]
+      },
+      "path": "~/Green Glowberry"
     }
   ],
   "variable_elements": [],
@@ -2132,6 +2220,7 @@
     "en_us": {
       "block.glowberry_expantion.glowberry_refiner": "Glowberry Refiner",
       "block.glowberry_expantion.glowing_chiseled_stone": "Glowing Chiseled Stone",
+      "item.glowberry_expantion.green_glowberrys": "Green Glowberrys",
       "item.glowberry_expantion.lapis_launch_gem": "Engraved Lapis",
       "block.glowberry_expantion.glowvinepurple": "Blue Glowberry Vine",
       "advancements.gem_engraving.descr": "And what does this have to do with glowberrys?",
@@ -2162,6 +2251,7 @@
       "item.glowberry_expantion.glowberrypie": "Glowberry Pie",
       "subtitles.engraver_use": "ching ching ching",
       "block.glowberry_expantion.glowvineblue": "Blue Glowberry Vine",
+      "block.glowberry_expantion.glowvinegreen": "Blue Glowberry Vine",
       "block.glowberry_expantion.glowberry_lantern": "Glowberry Lantern Frame",
       "entity.glowberry_expantion.the_vined": "The Vined WIP",
       "item.glowberry_expantion.chisel": "Chisel",

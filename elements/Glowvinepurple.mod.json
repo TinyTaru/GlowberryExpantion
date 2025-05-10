@@ -121,7 +121,7 @@
       "name": "GlowvinepurpleOnBlockRightClick"
     },
     "onNeighbourBlockChanges": {
-      "name": "GlowvineblueNeighbourBlockChanges"
+      "name": "GlowvinepurpleNeighbouringBlockChange"
     },
     "onTickUpdate": {
       "name": "GlowvinePurpleGrow"

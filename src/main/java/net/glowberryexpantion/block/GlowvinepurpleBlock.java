@@ -29,7 +29,7 @@ import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import net.glowberryexpantion.procedures.GlowvinepurpleOnBlockRightClickProcedure;
-import net.glowberryexpantion.procedures.GlowvineblueNeighbourBlockChangesProcedure;
+import net.glowberryexpantion.procedures.GlowvinepurpleNeighbouringBlockChangeProcedure;
 import net.glowberryexpantion.procedures.GlowvinePurpleGrowProcedure;
 import net.glowberryexpantion.init.GlowberryExpantionModItems;
 
@@ -86,7 +86,7 @@ public class GlowvinepurpleBlock extends Block implements BonemealableBlock {
 	@Override
 	public void neighborChanged(BlockState blockstate, Level world, BlockPos pos, Block neighborBlock, BlockPos fromPos, boolean moving) {
 		super.neighborChanged(blockstate, world, pos, neighborBlock, fromPos, moving);
-		GlowvineblueNeighbourBlockChangesProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), blockstate);
+		GlowvinepurpleNeighbouringBlockChangeProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), blockstate);
 	}
 
 	@Override
