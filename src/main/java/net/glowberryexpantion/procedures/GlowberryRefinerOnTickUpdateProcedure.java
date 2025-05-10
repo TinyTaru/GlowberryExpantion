@@ -650,7 +650,7 @@ public class GlowberryRefinerOnTickUpdateProcedure {
 										BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 										if (_ent != null) {
 											final int _slotid = 1;
-											final ItemStack _setstack = new ItemStack(GlowberryExpantionModItems.BLUE_GLOWBERRY_EXTRACT.get()).copy();
+											final ItemStack _setstack = new ItemStack(GlowberryExpantionModItems.PURPLE_GLOWBERRY_EXTRACT.get()).copy();
 											_setstack.setCount((int) (new Object() {
 												public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 													AtomicInteger _retval = new AtomicInteger(0);

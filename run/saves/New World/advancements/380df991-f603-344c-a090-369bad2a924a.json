@@ -1,4 +1,21 @@
 {
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-05-09 10:27:03 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:eroded_badlands": "2025-05-09 10:28:44 -0700",
+      "minecraft:wooded_badlands": "2025-05-09 13:32:25 -0700",
+      "minecraft:badlands": "2025-05-09 10:27:23 -0700",
+      "minecraft:river": "2025-05-09 10:28:21 -0700",
+      "minecraft:dripstone_caves": "2025-05-09 10:27:59 -0700",
+      "minecraft:desert": "2025-05-09 10:27:05 -0700"
+    },
+    "done": false
+  },
   "minecraft:recipes/building_blocks/lime_terracotta": {
     "criteria": {
       "has_terracotta": "2025-05-09 10:27:37 -0700"
@@ -35,12 +52,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/crafting_table": {
-    "criteria": {
-      "unlock_right_away": "2025-05-09 10:27:03 -0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/pink_terracotta": {
     "criteria": {
       "has_terracotta": "2025-05-09 10:27:37 -0700"
@@ -70,16 +81,6 @@
       "has_terracotta": "2025-05-09 10:27:37 -0700"
     },
     "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:eroded_badlands": "2025-05-09 10:28:44 -0700",
-      "minecraft:badlands": "2025-05-09 10:27:23 -0700",
-      "minecraft:river": "2025-05-09 10:28:21 -0700",
-      "minecraft:dripstone_caves": "2025-05-09 10:27:59 -0700",
-      "minecraft:desert": "2025-05-09 10:27:05 -0700"
-    },
-    "done": false
   },
   "minecraft:recipes/building_blocks/yellow_terracotta": {
     "criteria": {
