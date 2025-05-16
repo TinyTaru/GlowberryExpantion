@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:book"
+    },
+    "b": {
+      "tag": "minecraft:glowberrys"
+    }
+  },
+ "result": {
+    "item": "patchouli:guide_book",
+    "count": 1,
+    "nbt": {"patchouli:book": "glowberry_expantion:guide_to_glowberrys"}
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_fv": 66,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "engraver_recipe_type",
+    "result": {
+      "value": "CUSTOM:IngravedEmerald"
+    },
+    "count": 1,
+    "ingredients": [
+      {
+        "value": "Items.EMERALD"
+      },
+      {
+        "value": "CUSTOM:GreenGlowberryExtract"
+      },
+      {
+        "value": "CUSTOM:Chisel"
+      }
+    ]
+  }
+}

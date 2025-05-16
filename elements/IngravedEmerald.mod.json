@@ -3,10 +3,47 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "engraved_emerald",
+    "texture": "engraved_emerald_full",
     "customModelName": "Normal",
-    "customProperties": {},
-    "states": [],
+    "customProperties": {
+      "glowlevel": {
+        "name": "IngravedAmethystPropertyValueProvider"
+      }
+    },
+    "states": [
+      {
+        "renderType": 0,
+        "texture": "engraved_emerald_half_full",
+        "customModelName": "Normal",
+        "stateMap": [
+          {
+            "property": {
+              "min": -1.7976931348623157E308,
+              "max": 1.7976931348623157E308,
+              "name": "CUSTOM:glowlevel",
+              "type": "number"
+            },
+            "value": 22.0
+          }
+        ]
+      },
+      {
+        "renderType": 0,
+        "texture": "engraved_emerald",
+        "customModelName": "Normal",
+        "stateMap": [
+          {
+            "property": {
+              "min": -1.7976931348623157E308,
+              "max": 1.7976931348623157E308,
+              "name": "CUSTOM:glowlevel",
+              "type": "number"
+            },
+            "value": 42.0
+          }
+        ]
+      }
+    ],
     "name": "Ingraved Emerald",
     "rarity": "COMMON",
     "creativeTabs": [

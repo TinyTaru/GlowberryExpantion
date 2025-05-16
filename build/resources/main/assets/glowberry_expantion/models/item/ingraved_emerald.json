@@ -1,6 +1,20 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "glowberry_expantion:item/engraved_emerald"
-  }
+    "layer0": "glowberry_expantion:item/engraved_emerald_full"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "glowberry_expantion:ingraved_emerald_glowlevel": 22
+      },
+      "model": "glowberry_expantion:item/ingraved_emerald_0"
+    },
+    {
+      "predicate": {
+        "glowberry_expantion:ingraved_emerald_glowlevel": 42
+      },
+      "model": "glowberry_expantion:item/ingraved_emerald_1"
+    }
+  ]
 }

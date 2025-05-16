@@ -42,6 +42,11 @@
 			<attribute name="gradle_used_by_scope" value=""/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sabien/.mcreator/gradle/caches/forge_gradle/deobf_dependencies/curse/maven/patchouli-306770/6164575_mapped_official_1.20.1/patchouli-306770-6164575_mapped_official_1.20.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry sourcepath="C:/Users/Sabien/.mcreator/gradle/caches/forge_gradle/deobf_dependencies/software/bernie/geckolib/geckolib-forge-1.20.1/4.4.2_mapped_official_1.20.1/geckolib-forge-1.20.1-4.4.2_mapped_official_1.20.1-sources.jar" kind="lib" path="C:/Users/Sabien/.mcreator/gradle/caches/forge_gradle/deobf_dependencies/software/bernie/geckolib/geckolib-forge-1.20.1/4.4.2_mapped_official_1.20.1/geckolib-forge-1.20.1-4.4.2_mapped_official_1.20.1.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>

@@ -46,6 +46,7 @@ public class GlowberryExpantionModTabs {
 				tabData.accept(GlowberryExpantionModItems.PURPLE_GLOWBERRY_EXTRACT.get());
 				tabData.accept(GlowberryExpantionModBlocks.GLOWING_CHISELED_DEEPSLATE.get().asItem());
 				tabData.accept(GlowberryExpantionModItems.GREEN_GLOWBERRYS.get());
+				tabData.accept(GlowberryExpantionModItems.GREEN_GLOWBERRY_EXTRACT.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "glowberry_expantion:ingraved_amethyst"
+    },
+    {
+      "item": "glowberry_expantion:purple_glowberry_extract"
+    }
+  ],
+  "result": {
+    "item": "glowberry_expantion:ingraved_amethyst",
+    "count": 1
+  }
+}

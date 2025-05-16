@@ -1,0 +1,22 @@
+{
+  "_fv": 66,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "engraver_recipe_type",
+    "result": {
+      "value": "CUSTOM:IngravedAmethyst"
+    },
+    "count": 1,
+    "ingredients": [
+      {
+        "value": "Items.AMETHYST_SHARD"
+      },
+      {
+        "value": "CUSTOM:PurpleGlowberryExtract"
+      },
+      {
+        "value": "CUSTOM:Chisel"
+      }
+    ]
+  }
+}

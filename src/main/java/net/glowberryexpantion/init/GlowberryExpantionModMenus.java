@@ -12,6 +12,8 @@ import net.minecraftforge.common.extensions.IForgeMenuType;
 import net.minecraft.world.inventory.MenuType;
 
 import net.glowberryexpantion.world.inventory.RefinerGUIMenu;
+import net.glowberryexpantion.world.inventory.PageEngravedGemsMenu;
+import net.glowberryexpantion.world.inventory.HomePageMenu;
 import net.glowberryexpantion.world.inventory.GemEngraverGUIMenu;
 import net.glowberryexpantion.GlowberryExpantionMod;
 
@@ -19,4 +21,6 @@ public class GlowberryExpantionModMenus {
 	public static final DeferredRegister<MenuType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.MENU_TYPES, GlowberryExpantionMod.MODID);
 	public static final RegistryObject<MenuType<RefinerGUIMenu>> REFINER_GUI = REGISTRY.register("refiner_gui", () -> IForgeMenuType.create(RefinerGUIMenu::new));
 	public static final RegistryObject<MenuType<GemEngraverGUIMenu>> GEM_ENGRAVER_GUI = REGISTRY.register("gem_engraver_gui", () -> IForgeMenuType.create(GemEngraverGUIMenu::new));
+	public static final RegistryObject<MenuType<HomePageMenu>> HOME_PAGE = REGISTRY.register("home_page", () -> IForgeMenuType.create(HomePageMenu::new));
+	public static final RegistryObject<MenuType<PageEngravedGemsMenu>> PAGE_ENGRAVED_GEMS = REGISTRY.register("page_engraved_gems", () -> IForgeMenuType.create(PageEngravedGemsMenu::new));
 }

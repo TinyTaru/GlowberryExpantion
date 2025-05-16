@@ -1,0 +1,22 @@
+{
+  "_fv": 66,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "glowberry_refiner_recipe_type",
+    "result": {
+      "value": "CUSTOM:GreenGlowberryExtract"
+    },
+    "count": 1,
+    "ingredients": [
+      {
+        "value": "Items.GLASS_BOTTLE"
+      },
+      {
+        "value": "CUSTOM:GreenGlowberrys"
+      },
+      {
+        "value": "CUSTOM:MortarAndPestle"
+      }
+    ]
+  }
+}

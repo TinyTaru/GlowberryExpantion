@@ -22,6 +22,12 @@ authors="Sabien, MCreator"
 
 
 [[dependencies.glowberry_expantion]]
+    modId="patchouli"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.glowberry_expantion]]
     modId="geckolib"
     mandatory=false
     versionRange="[0,)"

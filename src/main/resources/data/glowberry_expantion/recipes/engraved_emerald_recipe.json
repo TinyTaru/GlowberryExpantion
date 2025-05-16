@@ -1,0 +1,18 @@
+{
+  "type": "glowberry_expantion:engraver_recipe_type",
+  "ingredients": [
+    {
+      "item": "minecraft:emerald"
+    },
+    {
+      "item": "glowberry_expantion:green_glowberry_extract"
+    },
+    {
+      "item": "glowberry_expantion:chisel"
+    }
+  ],
+  "output": {
+    "item": "glowberry_expantion:ingraved_emerald",
+    "count": 1
+  }
+}

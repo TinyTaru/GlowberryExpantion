@@ -1,0 +1,18 @@
+{
+  "type": "glowberry_expantion:glowberry_refiner_recipe_type",
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "item": "glowberry_expantion:green_glowberrys"
+    },
+    {
+      "item": "glowberry_expantion:mortar_and_pestle"
+    }
+  ],
+  "output": {
+    "item": "glowberry_expantion:green_glowberry_extract",
+    "count": 1
+  }
+}

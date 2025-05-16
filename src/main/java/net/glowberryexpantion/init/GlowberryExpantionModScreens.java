@@ -12,6 +12,8 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.client.gui.screens.MenuScreens;
 
 import net.glowberryexpantion.client.gui.RefinerGUIScreen;
+import net.glowberryexpantion.client.gui.PageEngravedGemsScreen;
+import net.glowberryexpantion.client.gui.HomePageScreen;
 import net.glowberryexpantion.client.gui.GemEngraverGUIScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -21,6 +23,8 @@ public class GlowberryExpantionModScreens {
 		event.enqueueWork(() -> {
 			MenuScreens.register(GlowberryExpantionModMenus.REFINER_GUI.get(), RefinerGUIScreen::new);
 			MenuScreens.register(GlowberryExpantionModMenus.GEM_ENGRAVER_GUI.get(), GemEngraverGUIScreen::new);
+			MenuScreens.register(GlowberryExpantionModMenus.HOME_PAGE.get(), HomePageScreen::new);
+			MenuScreens.register(GlowberryExpantionModMenus.PAGE_ENGRAVED_GEMS.get(), PageEngravedGemsScreen::new);
 		});
 	}
 }
