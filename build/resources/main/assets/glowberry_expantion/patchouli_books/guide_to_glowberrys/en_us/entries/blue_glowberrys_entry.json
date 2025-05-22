@@ -1,0 +1,18 @@
+{
+    "name": "Blue glowberrys",
+    "icon": "glowberry_expantion:blue_glowberrys",
+    "category": "glowberry_expantion:glowberrys_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Blue glowberrys are the easiest of the new glowberrys to acquire. They can be found in lush pockets."
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+			  "glowberry_expantion:engraver_entry"
+			],
+			"text": "Here you can find out more about lush pockets"
+        }
+    ]
+}

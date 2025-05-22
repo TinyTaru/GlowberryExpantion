@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "glowberry_expantion:block/glowing_green_chiseled_stone",
+    "up": "glowberry_expantion:block/glowing_green_chiseled_stone",
+    "north": "glowberry_expantion:block/glowing_green_chiseled_stone",
+    "east": "glowberry_expantion:block/glowing_green_chiseled_stone",
+    "south": "glowberry_expantion:block/glowing_green_chiseled_stone",
+    "west": "glowberry_expantion:block/glowing_green_chiseled_stone",
+    "particle": "glowberry_expantion:block/glowing_green_chiseled_stone"
+  },
+  "render_type": "solid"
+}

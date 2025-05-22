@@ -1,0 +1,16 @@
+{
+    "name": "Engraved Lapis",
+    "icon": "glowberry_expantion:lapis_launch_gem",
+    "category": "glowberry_expantion:glowberrys_category",
+     "pages": [
+        {
+            "type": "text",
+            "text": "Engraved lapis is the easiest engraved gem to make. It will launch the player in the direction they're looking."
+        },
+        {
+            "type": "glowberry_expantion:engraver",
+            "text": "The engraved lapis recipe.",
+            "recipe": "glowberry_expantion:lapis_launch_gem_recipe"
+        }
+    ]
+}

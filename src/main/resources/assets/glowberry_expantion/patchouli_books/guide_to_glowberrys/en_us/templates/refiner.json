@@ -1,0 +1,35 @@
+{
+    "components": [
+        {
+            "type": "patchouli:item",
+            "item": "#input",
+            "x": 14,
+            "y": 26
+        },
+        {
+            "type": "patchouli:item",
+            "item": "#output",
+            "x": 82,
+            "y": 26,
+            "link_recipe": true
+        },
+        {
+            "group": "altar",
+            "type": "patchouli:item",
+            "item": "glowberry_expantion:lapis_launch_gem",
+            "x": 48,
+            "y": 26
+        },      
+        {
+            "type": "patchouli:header",
+            "text": "#name",
+            "x": -1,
+            "y": 0
+        },
+        {
+            "type": "patchouli:text",
+            "text": "#text",
+            "x": 0,
+            "y": 63
+        }
+    ]

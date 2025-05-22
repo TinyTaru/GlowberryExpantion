@@ -1,0 +1,17 @@
+{
+  "name": "glowberry_expantion:glow_temple_glow_temple_basment",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "glowberry_expantion:glow_temple_bottom",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    }
+  ]
+}

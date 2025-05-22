@@ -1,0 +1,17 @@
+{
+    "name": "Gem Engraver",
+    "icon": "glowberry_expantion:gem_engraver",
+    "category": "glowberry_expantion:engraved_gem_category",
+    "advancement": "glowberry_expantion:gem_engraving",
+     "pages": [
+        {
+            "type": "text",
+            "text": "The gem engraver is a new crafting block that can be used to engrave gems. Note that when engraving gems the extract color must be similar to the gem color."
+        },
+        {
+            "type": "crafting",
+            "text": "The gem engraver recipe.",
+            "recipe": "glowberry_expantion:engraverrecipe"
+        }
+    ]
+}

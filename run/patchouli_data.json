@@ -4,7 +4,15 @@
   "bookData": {
     "glowberry_expantion:guide_to_glowberrys": {
       "viewedEntries": [
-        "glowberry_expantion:test/test_entry"
+        "glowberry_expantion:test/test_entry",
+        "glowberry_expantion:engraver_entry",
+        "glowberry_expantion:blue_glowberrys_entry",
+        "glowberry_expantion:lush_pocket",
+        "glowberry_expantion:glow_ruin_entry",
+        "glowberry_expantion:purple_glowberrys_entry",
+        "glowberry_expantion:glowberry_lantern_entry",
+        "glowberry_expantion:glow_temple_entry",
+        "glowberry_expantion:engraved_lapis_entry"
       ],
       "bookmarks": [],
       "completedManualQuests": []

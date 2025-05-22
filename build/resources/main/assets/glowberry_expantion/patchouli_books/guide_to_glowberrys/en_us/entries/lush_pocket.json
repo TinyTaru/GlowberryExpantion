@@ -1,0 +1,19 @@
+{
+    "name": "Lush Pocket",
+    "icon": "glowberry_expantion:glowvineblue",
+    "category": "glowberry_expantion:world_gen_category",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The Lush Pocket can be found near and in lush caves."
+        },
+		{
+			"type": "patchouli:image",
+			"images": [
+			  "glowberry_expantion:textures/screens/lush_pocket_one.png", "glowberry_expantion:textures/screens/lush_pocket_two.png", "glowberry_expantion:textures/screens/lush_pocket_three.png"
+			],
+			"title": "A Lush Pocket",
+			"border": true
+		}
+    ]
+}

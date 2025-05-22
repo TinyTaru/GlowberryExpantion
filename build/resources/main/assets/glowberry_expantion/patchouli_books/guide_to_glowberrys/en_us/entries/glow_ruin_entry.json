@@ -1,0 +1,19 @@
+{
+    "name": "Glow Ruins",
+    "icon": "glowberry_expantion:glowing_chiseled_deepslate",
+    "category": "glowberry_expantion:world_gen_category",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Glow ruins can be found at deepslate level and will contain purple glowberrys."
+        },
+		{
+			"type": "patchouli:image",
+			"images": [
+			  "glowberry_expantion:textures/screens/glow_ruin_one.png", "glowberry_expantion:textures/screens/glow_ruin_two.png", "glowberry_expantion:textures/screens/glow_ruin_three.png"
+			],
+			"title": "Some Glow Ruins",
+			"border": true
+		}
+    ]
+}

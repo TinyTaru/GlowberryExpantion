@@ -1,0 +1,19 @@
+{
+    "name": "Glow Temple",
+    "icon": "glowberry_expantion:glowing_green_chiseled_stone",
+    "category": "glowberry_expantion:world_gen_category",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The Glow Temple can be found in jungles."
+        },
+		{
+			"type": "patchouli:image",
+			"images": [
+			  "glowberry_expantion:textures/screens/glow_temple.png", "glowberry_expantion:textures/screens/glow_temple_two.png", "glowberry_expantion:textures/screens/glow_temple_three.png"
+			],
+			"title": "A Glow Temple",
+			"border": true
+		}
+    ]
+}

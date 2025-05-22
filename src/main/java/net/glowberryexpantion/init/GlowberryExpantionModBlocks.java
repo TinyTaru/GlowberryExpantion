@@ -13,6 +13,7 @@ import net.minecraft.world.level.block.Block;
 import net.glowberryexpantion.block.GlowvinepurpleBlock;
 import net.glowberryexpantion.block.GlowvinegreenBlock;
 import net.glowberryexpantion.block.GlowvineblueBlock;
+import net.glowberryexpantion.block.GlowingGreenChiseledStoneBlock;
 import net.glowberryexpantion.block.GlowingChiseledStoneBlock;
 import net.glowberryexpantion.block.GlowingChiseledDeepslateBlock;
 import net.glowberryexpantion.block.GlowberryRefinerBlock;
@@ -32,6 +33,7 @@ public class GlowberryExpantionModBlocks {
 	public static final RegistryObject<Block> GLOWVINEPURPLE = REGISTRY.register("glowvinepurple", () -> new GlowvinepurpleBlock());
 	public static final RegistryObject<Block> GLOWING_CHISELED_DEEPSLATE = REGISTRY.register("glowing_chiseled_deepslate", () -> new GlowingChiseledDeepslateBlock());
 	public static final RegistryObject<Block> GLOWVINEGREEN = REGISTRY.register("glowvinegreen", () -> new GlowvinegreenBlock());
+	public static final RegistryObject<Block> GLOWING_GREEN_CHISELED_STONE = REGISTRY.register("glowing_green_chiseled_stone", () -> new GlowingGreenChiseledStoneBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

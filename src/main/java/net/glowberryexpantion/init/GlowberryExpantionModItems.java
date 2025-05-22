@@ -74,6 +74,7 @@ public class GlowberryExpantionModItems {
 	public static final RegistryObject<Item> GLOWVINEGREEN = block(GlowberryExpantionModBlocks.GLOWVINEGREEN);
 	public static final RegistryObject<Item> GREEN_GLOWBERRY_EXTRACT = REGISTRY.register("green_glowberry_extract", () -> new GreenGlowberryExtractItem());
 	public static final RegistryObject<Item> IGNORE = REGISTRY.register("ignore", () -> new IgnoreItem());
+	public static final RegistryObject<Item> GLOWING_GREEN_CHISELED_STONE = block(GlowberryExpantionModBlocks.GLOWING_GREEN_CHISELED_STONE);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -1,0 +1,11 @@
+{
+    "name": "Glowberry Lantern",
+    "icon": "glowberry_expantion:glowberry_lantern",
+    "category": "glowberry_expantion:blocks_category",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "This is a test entry, but it should show up!"
+        }
+    ]
+}

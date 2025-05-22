@@ -1,7 +1,7 @@
 {
     "name": "Test Entry",
     "icon": "minecraft:writable_book",
-    "category": "glowberry_expantion:test_category",
+    "category": "glowberry_expantion:glowberrys_category",
     "pages": [
         {
             "type": "patchouli:text",
