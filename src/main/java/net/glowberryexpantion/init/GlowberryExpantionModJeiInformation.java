@@ -23,5 +23,6 @@ public class GlowberryExpantionModJeiInformation implements IModPlugin {
 	public void registerRecipes(IRecipeRegistration registration) {
 		registration.addIngredientInfo(List.of(new ItemStack(GlowberryExpantionModItems.BLUE_GLOWBERRYS.get())), VanillaTypes.ITEM_STACK, Component.translatable("jei.glowberry_expantion.blue_glowberry_info"));
 		registration.addIngredientInfo(List.of(new ItemStack(GlowberryExpantionModItems.PURPLE_GLOWBERRYS.get())), VanillaTypes.ITEM_STACK, Component.translatable("jei.glowberry_expantion.purple_glowberry_info"));
+		registration.addIngredientInfo(List.of(new ItemStack(GlowberryExpantionModItems.GREEN_GLOWBERRYS.get())), VanillaTypes.ITEM_STACK, Component.translatable("jei.glowberry_expantion.green_glow_info"));
 	}
 }

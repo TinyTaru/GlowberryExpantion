@@ -31,10 +31,10 @@
       }
     ],
     "armorTextureFile": "leather",
-    "helmetName": "Glowing Leather Helmet",
-    "bodyName": "Glowing Leather Chestplate",
-    "leggingsName": "Glowing Leather Leggings",
-    "bootsName": "Glowing Leather Boots",
+    "helmetName": "§6Glowing Leather Helmet",
+    "bodyName": "§6Glowing Leather Chestplate",
+    "leggingsName": "§6Glowing Leather Leggings",
+    "bootsName": "§6Glowing Leather Boots",
     "helmetSpecialInformation": {
       "fixedValue": []
     },

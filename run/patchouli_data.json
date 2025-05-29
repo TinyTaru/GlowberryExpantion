@@ -1,5 +1,5 @@
 {
-  "bookGuiScale": 4,
+  "bookGuiScale": 0,
   "clickedVisualize": false,
   "bookData": {
     "glowberry_expantion:guide_to_glowberrys": {
@@ -12,7 +12,9 @@
         "glowberry_expantion:purple_glowberrys_entry",
         "glowberry_expantion:glowberry_lantern_entry",
         "glowberry_expantion:glow_temple_entry",
-        "glowberry_expantion:engraved_lapis_entry"
+        "glowberry_expantion:engraved_lapis_entry",
+        "glowberry_expantion:blue_glowberry_extract_entry",
+        "glowberry_expantion:glowing_chiseled_stone_entry"
       ],
       "bookmarks": [],
       "completedManualQuests": []
