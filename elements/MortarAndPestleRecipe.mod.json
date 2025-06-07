@@ -12,7 +12,7 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.STONE"
+        "value": "Blocks.COBBLESTONE"
       },
       {
         "value": ""
@@ -21,19 +21,19 @@
         "value": ""
       },
       {
-        "value": "Blocks.STONE"
+        "value": "Blocks.COBBLESTONE"
       },
       {
-        "value": "Blocks.STONE"
+        "value": "Blocks.COBBLESTONE"
       },
       {
-        "value": "Blocks.STONE"
+        "value": "Blocks.COBBLESTONE"
       },
       {
         "value": ""
       },
       {
-        "value": "Blocks.STONE"
+        "value": "Blocks.COBBLESTONE"
       },
       {
         "value": ""
