@@ -1,0 +1,17 @@
+{
+    "name": "Engraved Diamond",
+    "icon": "glowberry_expantion:ingraved_diamond",
+    "category": "glowberry_expantion:engraved_gem_category",
+    "advancement": "glowberry_expantion:gem_engraving",
+     "pages": [
+        {
+            "type": "text",
+            "text": "Engraved diamonds are the second easiest engraved gem to make. Engraved diamonds will strike lighting at a block if you click on it."
+        },
+        {
+            "type": "glowberry_expantion:engraver_diamond",
+            "text": "The engraved diamond recipe.",
+            "recipe": "glowberry_expantion:ingraved_diamond_recipe"
+        }
+    ]
+}

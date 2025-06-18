@@ -1,11 +1,20 @@
 {
     "name": "glowing chiseled stone",
-    "icon": "tag:forge:ingots/iron",
+    "icon": "glowberry_expantion:textures/screens/chiseled_stone_icon.png",
     "category": "glowberry_expantion:blocks_category",
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "This is a test entry, but it should show up!"
-        }
+            "text": "Glowing chiseled stones can be crafted with four chiseled stone or deepslate surrounding one glowberry extract of any color"
+        },
+		{
+			"type": "patchouli:crafting",
+			"recipe": "glowberry_expantion:glowing_stone_recipe",
+			"recipe2": "glowberry_expantion:glow_deepstate_recipe"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "glowberry_expantion:green_chiseled_stone_recipe"
+		}
     ]
 }

@@ -1,0 +1,27 @@
+{
+    "name": "Glowberry Extract",
+    "icon": "glowberry_expantion:textures/screens/rainbow_extract.png",
+    "category": "glowberry_expantion:glowberrys_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Glowberry extracts of various colors can be created by combining a glowberry, bottle, and mortar and pestle in a glowberry refiner. All extract recipes are show on the following pages."
+        },
+        {
+            "type": "glowberry_expantion:refiner_blue_extract",
+            "text": "Blue glowberry extract recipe"
+        },
+		{
+            "type": "glowberry_expantion:refiner_extract",
+            "text": "Glowberry extract recipe"
+        },
+		{
+            "type": "glowberry_expantion:refiner_purple_extract",
+            "text": "Purple glowberry extract recipe"
+        },
+		{
+            "type": "glowberry_expantion:refiner_green_extract",
+            "text": "Green glowberry extract recipe"
+        }
+    ]
+}

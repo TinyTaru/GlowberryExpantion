@@ -1,7 +1,8 @@
 {
     "name": "Engraved Lapis",
     "icon": "glowberry_expantion:lapis_launch_gem",
-    "category": "glowberry_expantion:glowberrys_category",
+    "category": "glowberry_expantion:engraved_gem_category",
+    "advancement": "glowberry_expantion:gem_engraving",
      "pages": [
         {
             "type": "text",

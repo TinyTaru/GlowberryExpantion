@@ -15,7 +15,11 @@
         "glowberry_expantion:engraved_lapis_entry",
         "glowberry_expantion:blue_glowberry_extract_entry",
         "glowberry_expantion:glowing_chiseled_stone_entry",
-        "glowberry_expantion:green_glowberrys_entry"
+        "glowberry_expantion:green_glowberrys_entry",
+        "glowberry_expantion:engraved_diamond_entry",
+        "glowberry_expantion:glowberry_extract_entry",
+        "glowberry_expantion:engraved_amethyst_entry",
+        "glowberry_expantion:engraved_emerald_entry"
       ],
       "bookmarks": [],
       "completedManualQuests": []

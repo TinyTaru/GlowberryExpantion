@@ -1,0 +1,17 @@
+{
+    "name": "Engraved Emerald",
+    "icon": "glowberry_expantion:ingraved_emerald",
+    "category": "glowberry_expantion:engraved_gem_category",
+    "advancement": "glowberry_expantion:gem_engraving",
+     "pages": [
+        {
+            "type": "text",
+            "text": "The engraved emerald is the hardest engraved gem to make. The engraved emerald will bone meal the block you click on."
+        },
+        {
+            "type": "glowberry_expantion:engraver_emerald",
+            "text": "The engraved emerald recipe.",
+            "recipe": "glowberry_expantion:ingraved_diamond_recipe"
+        }
+    ]
+}

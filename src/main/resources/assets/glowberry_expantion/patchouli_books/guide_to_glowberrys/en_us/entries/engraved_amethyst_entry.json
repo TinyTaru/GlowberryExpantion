@@ -1,0 +1,17 @@
+{
+    "name": "Engraved Amethyst",
+    "icon": "glowberry_expantion:ingraved_amethyst",
+    "category": "glowberry_expantion:engraved_gem_category",
+    "advancement": "glowberry_expantion:gem_engraving",
+     "pages": [
+        {
+            "type": "text",
+            "text": "Engraved amethyst is the third easiest engraved gem to make. Engraved amethyst will teleport you to the block you are looking at wen right clicked. Note that it will teleport you on top of the block you are looking at, so don't go clicking on ceilings. By left clicking(or attacking) you can shoot a low damage purple projectile."
+        },
+        {
+            "type": "glowberry_expantion:engraver_amethyst",
+            "text": "The engraved amethyst recipe.",
+            "recipe": "glowberry_expantion:ingraved_diamond_recipe"
+        }
+    ]
+}

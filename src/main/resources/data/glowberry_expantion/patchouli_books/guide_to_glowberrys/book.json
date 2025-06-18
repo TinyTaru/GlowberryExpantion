@@ -5,5 +5,6 @@
     "creative_tab": "glowberry_expantion:glowberry_expantion",
     "use_resource_pack": true,
     "book_texture": "glowberry_expantion:textures/screens/glowing_guide.png",
-    "model": "glowberry_expantion:guide_to_glowberrys"
+    "model": "glowberry_expantion:guide_to_glowberrys",
+	"filler_texture": "glowberry_expantion:textures/screens/page_filler.png"
 }

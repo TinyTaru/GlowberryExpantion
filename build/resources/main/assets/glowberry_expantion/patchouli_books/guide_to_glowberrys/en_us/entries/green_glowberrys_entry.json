@@ -1,18 +1,18 @@
 {
-    "name": "Purple glowberrys",
-    "icon": "glowberry_expantion:purple_glowberrys",
+    "name": "Green glowberrys",
+    "icon": "glowberry_expantion:green_glowberrys",
     "category": "glowberry_expantion:glowberrys_category",
     "pages": [
         {
             "type": "text",
-            "text": "Purple glowberrys are the second easiest of the new glowberrys to acquire. They can be found in glow ruins."
+            "text": "Green glowberrys are the third easiest of the new glowberrys to acquire. They can be found in glow temples."
         },
         {
             "type": "patchouli:relations",
             "entries": [
-			  "glowberry_expantion:glow_ruin_entry"
+			  "glowberry_expantion:glow_temple_entry"
 			],
-			"text": "Here you can find out more about glow ruins."
+			"text": "Here you can find out more about glow temples."
         }
     ]
 }

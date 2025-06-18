@@ -5,7 +5,12 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "This is a test entry, but it should show up!"
-        }
+            "text": "You can right click glowberry lanterns with a glowberry to insert it in the lantern. You can right click with a empty hand to remove the currently inserted glowberry."
+        },
+		{
+			"type": "patchouli:image",
+			"images": ["glowberry_expantion:textures/screens/glowberry_lanterns.png"], 
+			"title": "Glowberry Lanterns"
+		}
     ]
 }
