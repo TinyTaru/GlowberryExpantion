@@ -12,8 +12,10 @@ import net.glowberryexpantion.init.GlowberryExpantionModBlocks;
 
 public class GlowvineblueGrowProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
-		if (50 == Mth.nextDouble(RandomSource.create(), 1, 200)) {
-			if (Blocks.AIR == (world.getBlockState(BlockPos.containing(x, y - 1, z))).getBlock()) {
+		if (world.isEmptyBlock(BlockPos.containing(x, y - 1, z))) {
+			world.setBlock(BlockPos.containing(x, y - 1, z), GlowberryExpantionModBlocks.GLOWVINEBLUE.get().defaultBlockState(), 3);
+		} else {
+			if (Blocks.CAVE_AIR == (world.getBlockState(BlockPos.containing(x, y - 1, z))).getBlock()) {
 				if (1 == Mth.nextDouble(RandomSource.create(), 1, 2)) {
 					{
 						int _value = 1;
@@ -26,26 +28,12 @@ public class GlowvineblueGrowProcedure {
 					world.setBlock(BlockPos.containing(x, y - 1, z), GlowberryExpantionModBlocks.GLOWVINEBLUE.get().defaultBlockState(), 3);
 				}
 			} else {
-				if (Blocks.CAVE_AIR == (world.getBlockState(BlockPos.containing(x, y - 1, z))).getBlock()) {
-					if (1 == Mth.nextDouble(RandomSource.create(), 1, 2)) {
-						{
-							int _value = 1;
-							BlockPos _pos = BlockPos.containing(x, y, z);
-							BlockState _bs = world.getBlockState(_pos);
-							if (_bs.getBlock().getStateDefinition().getProperty("blockstate") instanceof IntegerProperty _integerProp && _integerProp.getPossibleValues().contains(_value))
-								world.setBlock(_pos, _bs.setValue(_integerProp, _value), 3);
-						}
-					} else {
-						world.setBlock(BlockPos.containing(x, y - 1, z), GlowberryExpantionModBlocks.GLOWVINEBLUE.get().defaultBlockState(), 3);
-					}
-				} else {
-					{
-						int _value = 1;
-						BlockPos _pos = BlockPos.containing(x, y, z);
-						BlockState _bs = world.getBlockState(_pos);
-						if (_bs.getBlock().getStateDefinition().getProperty("blockstate") instanceof IntegerProperty _integerProp && _integerProp.getPossibleValues().contains(_value))
-							world.setBlock(_pos, _bs.setValue(_integerProp, _value), 3);
-					}
+				{
+					int _value = 1;
+					BlockPos _pos = BlockPos.containing(x, y, z);
+					BlockState _bs = world.getBlockState(_pos);
+					if (_bs.getBlock().getStateDefinition().getProperty("blockstate") instanceof IntegerProperty _integerProp && _integerProp.getPossibleValues().contains(_value))
+						world.setBlock(_pos, _bs.setValue(_integerProp, _value), 3);
 				}
 			}
 		}

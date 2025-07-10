@@ -1,0 +1,22 @@
+{
+  "_fv": 66,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "engraver_recipe_type",
+    "result": {
+      "value": "CUSTOM:EngravedGlowStone"
+    },
+    "count": 1,
+    "ingredients": [
+      {
+        "value": "CUSTOM:GlowstoneCrystal"
+      },
+      {
+        "value": "CUSTOM:GlowBerryExtract"
+      },
+      {
+        "value": "CUSTOM:Chisel"
+      }
+    ]
+  }
+}

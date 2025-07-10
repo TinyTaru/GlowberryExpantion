@@ -1,0 +1,25 @@
+{
+  "_fv": 66,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Radiance",
+    "icon": "glow_berries",
+    "color": {
+      "value": -103,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "NEUTRAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "RadianceOnEffectActiveTick"
+    },
+    "onActiveTick": {
+      "name": "RadianceOnEffectActiveTick"
+    },
+    "onExpired": {
+      "name": "RadianceEffectExpires"
+    }
+  }
+}

@@ -33,9 +33,11 @@ import net.glowberryexpantion.item.IngravedAmethystItem;
 import net.glowberryexpantion.item.IgnoreItem;
 import net.glowberryexpantion.item.GreenGlowberrysItem;
 import net.glowberryexpantion.item.GreenGlowberryExtractItem;
+import net.glowberryexpantion.item.GlowstoneCrystalItem;
 import net.glowberryexpantion.item.GlowingLeatherItem;
 import net.glowberryexpantion.item.GlowberrypieItem;
 import net.glowberryexpantion.item.GlowBerryExtractItem;
+import net.glowberryexpantion.item.EngravedGlowStoneItem;
 import net.glowberryexpantion.item.ChiselItem;
 import net.glowberryexpantion.item.BlueGlowberrysItem;
 import net.glowberryexpantion.item.BlueGlowberryExtractItem;
@@ -75,6 +77,9 @@ public class GlowberryExpantionModItems {
 	public static final RegistryObject<Item> GREEN_GLOWBERRY_EXTRACT = REGISTRY.register("green_glowberry_extract", () -> new GreenGlowberryExtractItem());
 	public static final RegistryObject<Item> IGNORE = REGISTRY.register("ignore", () -> new IgnoreItem());
 	public static final RegistryObject<Item> GLOWING_GREEN_CHISELED_STONE = block(GlowberryExpantionModBlocks.GLOWING_GREEN_CHISELED_STONE);
+	public static final RegistryObject<Item> GLOWSTONE_CRYSTAL = REGISTRY.register("glowstone_crystal", () -> new GlowstoneCrystalItem());
+	public static final RegistryObject<Item> RADIANT_LIGHT_BLOCK = block(GlowberryExpantionModBlocks.RADIANT_LIGHT_BLOCK);
+	public static final RegistryObject<Item> ENGRAVED_GLOW_STONE = REGISTRY.register("engraved_glow_stone", () -> new EngravedGlowStoneItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
@@ -92,6 +97,8 @@ public class GlowberryExpantionModItems {
 			ItemProperties.register(INGRAVED_EMERALD.get(), new ResourceLocation("glowberry_expantion:ingraved_emerald_glowlevel"),
 					(itemStackToRender, clientWorld, entity, itemEntityId) -> (float) IngravedAmethystPropertyValueProviderProcedure.execute(itemStackToRender));
 			ItemProperties.register(INGRAVED_DIAMOND.get(), new ResourceLocation("glowberry_expantion:ingraved_diamond_glow_level"),
+					(itemStackToRender, clientWorld, entity, itemEntityId) -> (float) IngravedAmethystPropertyValueProviderProcedure.execute(itemStackToRender));
+			ItemProperties.register(ENGRAVED_GLOW_STONE.get(), new ResourceLocation("glowberry_expantion:engraved_glow_stone_glowlevel"),
 					(itemStackToRender, clientWorld, entity, itemEntityId) -> (float) IngravedAmethystPropertyValueProviderProcedure.execute(itemStackToRender));
 		});
 	}

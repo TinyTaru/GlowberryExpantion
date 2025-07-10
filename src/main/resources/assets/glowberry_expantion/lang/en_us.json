@@ -21,6 +21,7 @@
   "item.glowberry_expantion.chisel": "Chisel",
   "item.glowberry_expantion.mortar_and_pestle": "Mortar And Pestle",
   "item.glowberry_expantion.blue_glowberrys": "Blue Glowberrys",
+  "effect.glowberry_expantion.radiance": "Radiance",
   "item.glowberry_expantion.vined_blossem_boots": "Vined Blossem Boots",
   "advancements.glow_berry_refining.title": "Glow Berry Refining?",
   "item.glowberry_expantion.purple_glowberrys": "Purple Glowberrys",
@@ -38,6 +39,7 @@
   "item.glowberry_expantion.vined_blossem_leggings": "Vined Blossem Leggings",
   "block.glowberry_expantion.glowing_green_chiseled_stone": "Glowing Green Chiseled Stone",
   "item.glowberry_expantion.glow_berry_extract": "§6Glow Berry Extract",
+  "block.glowberry_expantion.radiant_light_block": "Radiant Light Block",
   "item.glowberry_expantion.glowing_leather_helmet": "§6Glowing Leather Helmet",
   "jei.glowberry_expantion.blue_glowberry_info": "Found in pockets in and around lush caves",
   "painting.glowberry_expantion.lush_panting.author": "???",
@@ -49,6 +51,8 @@
   "item.glowberry_expantion.ingraved_amethyst": "Ingraved Amethyst",
   "block.glowberry_expantion.glowvinegreen": "Blue Glowberry Vine",
   "block.glowberry_expantion.glowberry_lantern": "Glowberry Lantern Frame",
+  "item.glowberry_expantion.engraved_glow_stone": "Engraved Glow Stone",
+  "item.glowberry_expantion.glowstone_crystal": "Glowstone Crystal",
   "advancements.glow_berry_refining.descr": "What is next?",
   "subtitles.engraved_gem_use": ""
 }

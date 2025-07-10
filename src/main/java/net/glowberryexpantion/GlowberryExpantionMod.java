@@ -22,6 +22,7 @@ import net.glowberryexpantion.init.GlowberryExpantionModTabs;
 import net.glowberryexpantion.init.GlowberryExpantionModSounds;
 import net.glowberryexpantion.init.GlowberryExpantionModParticleTypes;
 import net.glowberryexpantion.init.GlowberryExpantionModPaintings;
+import net.glowberryexpantion.init.GlowberryExpantionModMobEffects;
 import net.glowberryexpantion.init.GlowberryExpantionModMenus;
 import net.glowberryexpantion.init.GlowberryExpantionModItems;
 import net.glowberryexpantion.init.GlowberryExpantionModEntities;
@@ -56,6 +57,7 @@ public class GlowberryExpantionMod {
 		GlowberryExpantionModTabs.REGISTRY.register(bus);
 
 		StructureFeature.REGISTRY.register(bus);
+		GlowberryExpantionModMobEffects.REGISTRY.register(bus);
 
 		GlowberryExpantionModPaintings.REGISTRY.register(bus);
 		GlowberryExpantionModParticleTypes.REGISTRY.register(bus);
