@@ -49,6 +49,7 @@ public class GlowberryExpantionModTabs {
 				tabData.accept(GlowberryExpantionModItems.GREEN_GLOWBERRY_EXTRACT.get());
 				tabData.accept(GlowberryExpantionModItems.GLOWSTONE_CRYSTAL.get());
 				tabData.accept(GlowberryExpantionModItems.ENGRAVED_GLOW_STONE.get());
+				tabData.accept(GlowberryExpantionModItems.GEM_POUCH.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

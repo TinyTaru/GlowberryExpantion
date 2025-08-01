@@ -1,0 +1,15 @@
+{
+    "name": "Glowing Leather Armor",
+    "icon": "glowberry_expantion:glowing_leather_helmet",
+    "category": "glowberry_expantion:misc_category",
+    "pages": [
+        {
+            "type": "spotlight",
+			"item": "tag:glowberry_expantion:armor"
+        },
+        {
+            "type": "text",
+			"text": "The gem pouch is used for storing engraved gems, extract and glowberrys. It has four slots one for each color of glowberry."
+        }
+    ]
+}

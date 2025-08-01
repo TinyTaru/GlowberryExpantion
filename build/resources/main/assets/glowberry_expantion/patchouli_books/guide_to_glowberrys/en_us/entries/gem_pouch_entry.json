@@ -1,0 +1,16 @@
+{
+    "name": "Gem Pouch",
+    "icon": "glowberry_expantion:gem_pouch",
+    "category": "glowberry_expantion:misc_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The gem pouch is used for storing engraved gems, extract and glowberrys. It has four slots one for each color of glowberry."
+        },
+        {
+            "type": "crafting",
+			"text": "The Gem Pouch recipe.",
+			"recipe": "glowberry_expantion:gem_pouch_recipe"
+        }
+    ]
+}

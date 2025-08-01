@@ -37,6 +37,7 @@ import net.glowberryexpantion.item.GlowstoneCrystalItem;
 import net.glowberryexpantion.item.GlowingLeatherItem;
 import net.glowberryexpantion.item.GlowberrypieItem;
 import net.glowberryexpantion.item.GlowBerryExtractItem;
+import net.glowberryexpantion.item.GemPouchItem;
 import net.glowberryexpantion.item.EngravedGlowStoneItem;
 import net.glowberryexpantion.item.ChiselItem;
 import net.glowberryexpantion.item.BlueGlowberrysItem;
@@ -80,6 +81,7 @@ public class GlowberryExpantionModItems {
 	public static final RegistryObject<Item> GLOWSTONE_CRYSTAL = REGISTRY.register("glowstone_crystal", () -> new GlowstoneCrystalItem());
 	public static final RegistryObject<Item> RADIANT_LIGHT_BLOCK = block(GlowberryExpantionModBlocks.RADIANT_LIGHT_BLOCK);
 	public static final RegistryObject<Item> ENGRAVED_GLOW_STONE = REGISTRY.register("engraved_glow_stone", () -> new EngravedGlowStoneItem());
+	public static final RegistryObject<Item> GEM_POUCH = REGISTRY.register("gem_pouch", () -> new GemPouchItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

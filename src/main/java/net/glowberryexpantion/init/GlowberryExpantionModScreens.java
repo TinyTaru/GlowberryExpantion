@@ -14,6 +14,7 @@ import net.minecraft.client.gui.screens.MenuScreens;
 import net.glowberryexpantion.client.gui.RefinerGUIScreen;
 import net.glowberryexpantion.client.gui.PageEngravedGemsScreen;
 import net.glowberryexpantion.client.gui.HomePageScreen;
+import net.glowberryexpantion.client.gui.GemPouchGUIScreen;
 import net.glowberryexpantion.client.gui.GemEngraverGUIScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -25,6 +26,7 @@ public class GlowberryExpantionModScreens {
 			MenuScreens.register(GlowberryExpantionModMenus.GEM_ENGRAVER_GUI.get(), GemEngraverGUIScreen::new);
 			MenuScreens.register(GlowberryExpantionModMenus.HOME_PAGE.get(), HomePageScreen::new);
 			MenuScreens.register(GlowberryExpantionModMenus.PAGE_ENGRAVED_GEMS.get(), PageEngravedGemsScreen::new);
+			MenuScreens.register(GlowberryExpantionModMenus.GEM_POUCH_GUI.get(), GemPouchGUIScreen::new);
 		});
 	}
 }

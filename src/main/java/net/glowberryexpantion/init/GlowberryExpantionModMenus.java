@@ -14,6 +14,7 @@ import net.minecraft.world.inventory.MenuType;
 import net.glowberryexpantion.world.inventory.RefinerGUIMenu;
 import net.glowberryexpantion.world.inventory.PageEngravedGemsMenu;
 import net.glowberryexpantion.world.inventory.HomePageMenu;
+import net.glowberryexpantion.world.inventory.GemPouchGUIMenu;
 import net.glowberryexpantion.world.inventory.GemEngraverGUIMenu;
 import net.glowberryexpantion.GlowberryExpantionMod;
 
@@ -23,4 +24,5 @@ public class GlowberryExpantionModMenus {
 	public static final RegistryObject<MenuType<GemEngraverGUIMenu>> GEM_ENGRAVER_GUI = REGISTRY.register("gem_engraver_gui", () -> IForgeMenuType.create(GemEngraverGUIMenu::new));
 	public static final RegistryObject<MenuType<HomePageMenu>> HOME_PAGE = REGISTRY.register("home_page", () -> IForgeMenuType.create(HomePageMenu::new));
 	public static final RegistryObject<MenuType<PageEngravedGemsMenu>> PAGE_ENGRAVED_GEMS = REGISTRY.register("page_engraved_gems", () -> IForgeMenuType.create(PageEngravedGemsMenu::new));
+	public static final RegistryObject<MenuType<GemPouchGUIMenu>> GEM_POUCH_GUI = REGISTRY.register("gem_pouch_gui", () -> IForgeMenuType.create(GemPouchGUIMenu::new));
 }
