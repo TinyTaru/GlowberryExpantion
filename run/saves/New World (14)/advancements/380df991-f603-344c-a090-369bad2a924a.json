@@ -9,10 +9,12 @@
     "criteria": {
       "minecraft:taiga": "2025-07-08 16:00:56 -0700",
       "minecraft:beach": "2025-07-08 15:59:01 -0700",
+      "minecraft:sparse_jungle": "2025-08-06 21:38:14 -0700",
       "minecraft:river": "2025-07-08 15:59:52 -0700",
       "minecraft:forest": "2025-07-08 15:58:54 -0700",
       "minecraft:lush_caves": "2025-07-08 16:02:24 -0700",
-      "minecraft:jungle": "2025-07-08 19:56:28 -0700"
+      "minecraft:jungle": "2025-07-08 19:56:28 -0700",
+      "minecraft:plains": "2025-08-06 21:38:12 -0700"
     },
     "done": false
   },
@@ -91,6 +93,108 @@
   "minecraft:recipes/misc/charcoal": {
     "criteria": {
       "has_log": "2025-07-30 19:45:20 -0700"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/froglights": {
+    "criteria": {
+      "froglights": "2025-08-03 20:41:21 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-08-06 21:39:15 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2025-08-06 21:39:57 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/flower_banner_pattern": {
+    "criteria": {
+      "has_oxeye_daisy": "2025-08-06 21:46:21 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+    "criteria": {
+      "has_oxeye_daisy": "2025-08-06 21:46:21 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2025-08-06 21:50:14 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2025-08-10 11:18:32 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2025-08-10 11:18:32 -0700"
+    },
+    "done": true
+  },
+  "glowberry_expantion:getting_in_to_glowberrys": {
+    "criteria": {
+      "getting_in_to_glowberrys_0": "2025-08-10 11:19:28 -0700"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "glow_berries": "2025-08-10 11:20:23 -0700"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2025-08-10 11:20:23 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-08-10 11:22:34 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_stone_brick_wall": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-08-10 11:22:34 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_slab": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-08-10 11:22:34 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-08-10 11:22:34 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_stone_brick_wall_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-08-10 11:22:34 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_slab_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-08-10 11:22:34 -0700"
     },
     "done": true
   },

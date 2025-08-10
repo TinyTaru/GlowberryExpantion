@@ -1,6 +1,6 @@
 {
   "bookGuiScale": 0,
-  "clickedVisualize": false,
+  "clickedVisualize": true,
   "bookData": {
     "glowberry_expantion:guide_to_glowberrys": {
       "viewedEntries": [
@@ -23,7 +23,8 @@
         "glowberry_expantion:engraved_glowstone_entry",
         "glowberry_expantion:radiance_entry",
         "glowberry_expantion:gem_pouch_entry",
-        "glowberry_expantion:glow_armor_entry"
+        "glowberry_expantion:glow_armor_entry",
+        "glowberry_expantion:froglight_cross_cluster"
       ],
       "bookmarks": [],
       "completedManualQuests": []

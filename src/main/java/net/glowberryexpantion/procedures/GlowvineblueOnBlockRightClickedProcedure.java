@@ -71,27 +71,45 @@ public class GlowvineblueOnBlockRightClickedProcedure {
 				if (_entity instanceof Player _player)
 					_player.getInventory().setChanged();
 			}
-		} else {
-			if ((blockstate.getBlock().getStateDefinition().getProperty("blockstate") instanceof IntegerProperty _getip17 ? blockstate.getValue(_getip17) : -1) == 1) {
-				if (world instanceof Level _level) {
-					if (!_level.isClientSide()) {
-						_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.cave_vines.pick_berries")), SoundSource.NEUTRAL, 1, 1);
-					} else {
-						_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.cave_vines.pick_berries")), SoundSource.NEUTRAL, 1, 1, false);
-					}
+		} else if ((blockstate.getBlock().getStateDefinition().getProperty("blockstate") instanceof IntegerProperty _getip17 ? blockstate.getValue(_getip17) : -1) == 1) {
+			if (world instanceof Level _level) {
+				if (!_level.isClientSide()) {
+					_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.cave_vines.pick_berries")), SoundSource.NEUTRAL, 1, 1);
+				} else {
+					_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.cave_vines.pick_berries")), SoundSource.NEUTRAL, 1, 1, false);
 				}
-				if (entity instanceof Player _player) {
-					ItemStack _setstack = new ItemStack(GlowberryExpantionModItems.BLUE_GLOWBERRYS.get()).copy();
-					_setstack.setCount((int) Mth.nextDouble(RandomSource.create(), 1, 3));
-					ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+			}
+			if (entity instanceof Player _player) {
+				ItemStack _setstack = new ItemStack(GlowberryExpantionModItems.BLUE_GLOWBERRYS.get()).copy();
+				_setstack.setCount((int) Mth.nextDouble(RandomSource.create(), 1, 3));
+				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+			}
+			{
+				int _value = 0;
+				BlockPos _pos = BlockPos.containing(x, y, z);
+				BlockState _bs = world.getBlockState(_pos);
+				if (_bs.getBlock().getStateDefinition().getProperty("blockstate") instanceof IntegerProperty _integerProp && _integerProp.getPossibleValues().contains(_value))
+					world.setBlock(_pos, _bs.setValue(_integerProp, _value), 3);
+			}
+		} else if ((blockstate.getBlock().getStateDefinition().getProperty("blockstate") instanceof IntegerProperty _getip23 ? blockstate.getValue(_getip23) : -1) == 3) {
+			if (world instanceof Level _level) {
+				if (!_level.isClientSide()) {
+					_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.cave_vines.pick_berries")), SoundSource.NEUTRAL, 1, 1);
+				} else {
+					_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.cave_vines.pick_berries")), SoundSource.NEUTRAL, 1, 1, false);
 				}
-				{
-					int _value = 0;
-					BlockPos _pos = BlockPos.containing(x, y, z);
-					BlockState _bs = world.getBlockState(_pos);
-					if (_bs.getBlock().getStateDefinition().getProperty("blockstate") instanceof IntegerProperty _integerProp && _integerProp.getPossibleValues().contains(_value))
-						world.setBlock(_pos, _bs.setValue(_integerProp, _value), 3);
-				}
+			}
+			if (entity instanceof Player _player) {
+				ItemStack _setstack = new ItemStack(GlowberryExpantionModItems.BLUE_GLOWBERRYS.get()).copy();
+				_setstack.setCount((int) Mth.nextDouble(RandomSource.create(), 1, 3));
+				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+			}
+			{
+				int _value = 2;
+				BlockPos _pos = BlockPos.containing(x, y, z);
+				BlockState _bs = world.getBlockState(_pos);
+				if (_bs.getBlock().getStateDefinition().getProperty("blockstate") instanceof IntegerProperty _integerProp && _integerProp.getPossibleValues().contains(_value))
+					world.setBlock(_pos, _bs.setValue(_integerProp, _value), 3);
 			}
 		}
 	}

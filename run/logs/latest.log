@@ -1,54 +1,34 @@
-[30Jul2025 19:40:43.477] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\Sabien\.mcreator\gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[30Jul2025 19:40:43.489] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[30Jul2025 19:40:43.616] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[30Jul2025 19:40:43.789] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[30Jul2025 19:40:44.044] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[30Jul2025 19:40:44.194] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Sabien/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[30Jul2025 19:40:44.308] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce RTX 2070 SUPER/PCIe/SSE2 GL version 4.6.0 NVIDIA 566.36, NVIDIA Corporation
-[30Jul2025 19:40:44.527] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Sabien\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.2.0\7f9181f85acc66547685a72020713fc8cbde98\javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[30Jul2025 19:40:44.530] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Sabien\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.2.0\7872f5205685fdd26fae39b1be79b0e60ca5b7bd\lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[30Jul2025 19:40:44.534] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Sabien\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.2.0\d501d161cabed08b3c139a2c6217b02a39f3c3e9\mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[30Jul2025 19:40:44.537] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Sabien\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.2.0\ffd3c6debac0a388c9e33ac43c9f5eafb91cb466\fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
-[30Jul2025 19:40:44.727] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
-[30Jul2025 19:40:46.116] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[30Jul2025 19:40:46.121] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Sabien\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 5]
-[30Jul2025 19:40:46.414] [main/INFO] [mixin/]: Remapping refMap patchouli.refmap.json using C:\Users\Sabien\MCreatorWorkspaces\glowberry_expantion/build/createSrgToMcp/output.srg
-[30Jul2025 19:40:46.415] [main/INFO] [mixin/]: Remapping refMap geckolib.refmap.json using C:\Users\Sabien\MCreatorWorkspaces\glowberry_expantion/build/createSrgToMcp/output.srg
-[30Jul2025 19:40:50.142] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 137 milliseconds
-[30Jul2025 19:40:51.600] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Sabien/MCreatorWorkspaces/glowberry_expantion/build/fg_cache/net/minecraftforge/forge/1.20.1-47.2.0_mapped_official_1.20.1/forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[30Jul2025 19:40:51.601] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Sabien/MCreatorWorkspaces/glowberry_expantion/build/fg_cache/net/minecraftforge/forge/1.20.1-47.2.0_mapped_official_1.20.1/forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[30Jul2025 19:40:51.617] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[30Jul2025 19:40:51.623] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[30Jul2025 19:40:51.720] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
-[30Jul2025 19:40:52.063] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
-[30Jul2025 19:40:52.063] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
-[30Jul2025 19:40:52.238] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
-[30Jul2025 19:40:52.242] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 2.899 ms
-[30Jul2025 19:40:53.038] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
-[30Jul2025 19:40:53.259] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
-[30Jul2025 19:40:53.484] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[30Jul2025 19:40:53.494] [Worker-Main-11/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
-[30Jul2025 19:40:53.834] [Worker-Main-2/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model glowberry_expantion:models/block/refiner_blockstate_blockstate_0.json
-com.google.gson.JsonParseException: glowberry_expantion:block/minecraft:stripped_birch_log_top is not valid resource location
-	at net.minecraft.client.renderer.block.model.BlockModel$Deserializer.parseTextureLocationOrReference(BlockModel.java:356) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
-	at net.minecraft.client.renderer.block.model.BlockModel$Deserializer.getTextureMap(BlockModel.java:343) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
-	at net.minecraft.client.renderer.block.model.BlockModel$Deserializer.deserialize(BlockModel.java:307) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
-	at net.minecraftforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:53) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23190%23197!/:?]
-	at net.minecraftforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:38) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23190%23197!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23130!/:?]
-	at net.minecraft.util.GsonHelper.fromNullableJson(GsonHelper.java:434) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
-	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:441) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
-	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:493) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
-	at net.minecraft.client.renderer.block.model.BlockModel.fromStream(BlockModel.java:74) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
-	at net.minecraft.client.resources.model.ModelManager.lambda$loadBlockModels$8(ModelManager.java:110) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[30Jul2025 19:40:53.897] [Worker-Main-7/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file glowberry_expantion:guide_to_glowberrys/en_us/templates/engraver from glowberry_expantion:patchouli_books/guide_to_glowberrys/en_us/templates/engraver.json
+[10Aug2025 12:27:55.259] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\Sabien\.mcreator\gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[10Aug2025 12:27:55.262] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[10Aug2025 12:27:55.357] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[10Aug2025 12:27:55.426] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[10Aug2025 12:27:55.687] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[10Aug2025 12:27:55.772] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Sabien/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[10Aug2025 12:27:55.843] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce RTX 2070 SUPER/PCIe/SSE2 GL version 4.6.0 NVIDIA 566.36, NVIDIA Corporation
+[10Aug2025 12:27:56.078] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Sabien\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.2.0\7f9181f85acc66547685a72020713fc8cbde98\javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[10Aug2025 12:27:56.081] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Sabien\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.2.0\7872f5205685fdd26fae39b1be79b0e60ca5b7bd\lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[10Aug2025 12:27:56.084] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Sabien\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.2.0\d501d161cabed08b3c139a2c6217b02a39f3c3e9\mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[10Aug2025 12:27:56.087] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Sabien\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.2.0\ffd3c6debac0a388c9e33ac43c9f5eafb91cb466\fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
+[10Aug2025 12:27:56.255] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[10Aug2025 12:27:57.551] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[10Aug2025 12:27:57.556] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Sabien\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 5]
+[10Aug2025 12:27:57.913] [main/INFO] [mixin/]: Remapping refMap patchouli.refmap.json using C:\Users\Sabien\MCreatorWorkspaces\glowberry_expantion/build/createSrgToMcp/output.srg
+[10Aug2025 12:27:57.915] [main/INFO] [mixin/]: Remapping refMap geckolib.refmap.json using C:\Users\Sabien\MCreatorWorkspaces\glowberry_expantion/build/createSrgToMcp/output.srg
+[10Aug2025 12:28:01.352] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 128 milliseconds
+[10Aug2025 12:28:02.811] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Sabien/MCreatorWorkspaces/glowberry_expantion/build/fg_cache/net/minecraftforge/forge/1.20.1-47.2.0_mapped_official_1.20.1/forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[10Aug2025 12:28:02.811] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Sabien/MCreatorWorkspaces/glowberry_expantion/build/fg_cache/net/minecraftforge/forge/1.20.1-47.2.0_mapped_official_1.20.1/forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[10Aug2025 12:28:02.825] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[10Aug2025 12:28:02.830] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[10Aug2025 12:28:02.927] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[10Aug2025 12:28:03.167] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
+[10Aug2025 12:28:03.167] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
+[10Aug2025 12:28:03.296] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[10Aug2025 12:28:03.298] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 2.506 ms
+[10Aug2025 12:28:04.059] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
+[10Aug2025 12:28:04.323] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
+[10Aug2025 12:28:04.451] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[10Aug2025 12:28:04.468] [Worker-Main-2/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[10Aug2025 12:28:04.604] [Worker-Main-5/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file glowberry_expantion:guide_to_glowberrys/en_us/templates/engraver from glowberry_expantion:patchouli_books/guide_to_glowberrys/en_us/templates/engraver.json
 com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Unterminated object at line 3 column 3 path $.processor
 	at net.minecraft.util.GsonHelper.fromNullableJson(GsonHelper.java:436) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
 	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:441) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
@@ -73,7 +53,27 @@ Caused by: com.google.gson.stream.MalformedJsonException: Unterminated object at
 	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar%23130!/:?]
 	at net.minecraft.util.GsonHelper.fromNullableJson(GsonHelper.java:434) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
 	... 13 more
-[30Jul2025 19:40:54.001] [Worker-Main-9/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model glowberry_expantion:models/item/vined_blossem_helmet.json
+[10Aug2025 12:28:04.769] [Worker-Main-7/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model glowberry_expantion:models/block/refiner_blockstate_blockstate_0.json
+com.google.gson.JsonParseException: glowberry_expantion:block/minecraft:stripped_birch_log_top is not valid resource location
+	at net.minecraft.client.renderer.block.model.BlockModel$Deserializer.parseTextureLocationOrReference(BlockModel.java:356) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.renderer.block.model.BlockModel$Deserializer.getTextureMap(BlockModel.java:343) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.renderer.block.model.BlockModel$Deserializer.deserialize(BlockModel.java:307) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraftforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:53) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23190%23197!/:?]
+	at net.minecraftforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:38) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23190%23197!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23130!/:?]
+	at net.minecraft.util.GsonHelper.fromNullableJson(GsonHelper.java:434) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:441) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:493) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.renderer.block.model.BlockModel.fromStream(BlockModel.java:74) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at net.minecraft.client.resources.model.ModelManager.lambda$loadBlockModels$8(ModelManager.java:110) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[10Aug2025 12:28:04.861] [Worker-Main-3/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model glowberry_expantion:models/item/vined_blossem_helmet.json
 com.google.gson.JsonParseException: glowberry_expantion:item/minecraft:stick is not valid resource location
 	at net.minecraft.client.renderer.block.model.BlockModel$Deserializer.parseTextureLocationOrReference(BlockModel.java:356) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
 	at net.minecraft.client.renderer.block.model.BlockModel$Deserializer.getTextureMap(BlockModel.java:343) ~[forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/:?]
@@ -93,142 +93,140 @@ com.google.gson.JsonParseException: glowberry_expantion:item/minecraft:stick is 
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[30Jul2025 19:40:54.045] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.2.0 Target: 47.4.0
-[30Jul2025 19:40:54.424] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'glowberry_expantion:block/refiner_blockstate_blockstate_0' referenced from: glowberry_expantion:glowberry_refiner#blockstate=0: java.io.FileNotFoundException: glowberry_expantion:models/block/refiner_blockstate_blockstate_0.json
-[30Jul2025 19:40:54.429] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'glowberry_expantion:vined_blossem_helmet#inventory' referenced from: glowberry_expantion:vined_blossem_helmet#inventory: java.io.FileNotFoundException: glowberry_expantion:models/item/vined_blossem_helmet.json
-[30Jul2025 19:40:54.994] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model glowberry_expantion:glowberry_lantern#blockstate=5:
+[10Aug2025 12:28:04.975] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.2.0 Target: 47.4.0
+[10Aug2025 12:28:05.315] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'glowberry_expantion:block/refiner_blockstate_blockstate_0' referenced from: glowberry_expantion:glowberry_refiner#blockstate=0: java.io.FileNotFoundException: glowberry_expantion:models/block/refiner_blockstate_blockstate_0.json
+[10Aug2025 12:28:05.321] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'glowberry_expantion:vined_blossem_helmet#inventory' referenced from: glowberry_expantion:vined_blossem_helmet#inventory: java.io.FileNotFoundException: glowberry_expantion:models/item/vined_blossem_helmet.json
+[10Aug2025 12:28:05.922] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model glowberry_expantion:glowberry_lantern#blockstate=5:
     minecraft:textures/atlas/blocks.png:glowberry_expantion:block/
-[30Jul2025 19:40:54.994] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model glowberry_expantion:glowberry_lantern#blockstate=4:
+[10Aug2025 12:28:05.922] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model glowberry_expantion:glowberry_lantern#blockstate=4:
     minecraft:textures/atlas/blocks.png:glowberry_expantion:block/
-[30Jul2025 19:40:54.994] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model glowberry_expantion:glowberry_lantern#blockstate=3:
+[10Aug2025 12:28:05.922] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model glowberry_expantion:glowberry_lantern#blockstate=3:
     minecraft:textures/atlas/blocks.png:glowberry_expantion:block/
-[30Jul2025 19:40:54.994] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model glowberry_expantion:glowberry_lantern#blockstate=2:
+[10Aug2025 12:28:05.922] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model glowberry_expantion:glowberry_lantern#blockstate=2:
     minecraft:textures/atlas/blocks.png:glowberry_expantion:block/
-[30Jul2025 19:40:54.995] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model glowberry_expantion:glowberry_lantern#blockstate=1:
+[10Aug2025 12:28:05.923] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model glowberry_expantion:glowberry_lantern#blockstate=1:
     minecraft:textures/atlas/blocks.png:glowberry_expantion:block/
-[30Jul2025 19:40:55.917] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[30Jul2025 19:40:55.917] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[30Jul2025 19:40:55.958] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on 27G2G3 (NVIDIA High Definition Audio)
-[30Jul2025 19:40:55.958] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[30Jul2025 19:40:56.113] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/blocks.png-atlas
-[30Jul2025 19:40:56.122] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/signs.png-atlas
-[30Jul2025 19:40:56.123] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
-[30Jul2025 19:40:56.124] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
-[30Jul2025 19:40:56.124] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/armor_trims.png-atlas
-[30Jul2025 19:40:56.126] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
-[30Jul2025 19:40:56.127] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x2 minecraft:textures/atlas/decorated_pot.png-atlas
-[30Jul2025 19:40:56.128] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
-[30Jul2025 19:40:56.128] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
-[30Jul2025 19:40:56.224] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[30Jul2025 19:40:56.267] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[30Jul2025 19:40:56.270] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[30Jul2025 19:40:56.270] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[30Jul2025 19:40:56.272] [Render thread/INFO] [patchouli/]: BookContentResourceListenerLoader preloaded 33 jsons
-[30Jul2025 19:40:56.272] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 jei:textures/atlas/gui.png-atlas
-[30Jul2025 19:40:56.650] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
-[30Jul2025 19:41:13.714] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
-[30Jul2025 19:41:15.482] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 9 recipes
-[30Jul2025 19:41:15.564] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1274 advancements
-[30Jul2025 19:41:15.955] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
-[30Jul2025 19:41:15.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[30Jul2025 19:41:16.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[30Jul2025 19:41:19.242] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Jul2025 19:41:19.242] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Jul2025 19:41:19.242] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Jul2025 19:41:19.242] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Jul2025 19:41:19.242] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Jul2025 19:41:19.467] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
-[30Jul2025 19:41:19.974] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 87%
-[30Jul2025 19:41:20.006] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[30Jul2025 19:41:20.007] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
-[30Jul2025 19:41:20.015] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3050 ms
-[30Jul2025 19:41:20.151] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 5, from 10
-[30Jul2025 19:41:20.153] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[30Jul2025 19:41:20.237] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
-[30Jul2025 19:41:20.656] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
-[30Jul2025 19:41:20.712] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:77592650] logged in with entity id 84 at (2250.810992810274, 104.84544429723017, 18.194786645790508)
-[30Jul2025 19:41:20.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[30Jul2025 19:41:20.798] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingIn
-[30Jul2025 19:41:20.800] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from DISABLED to ENABLED
-[30Jul2025 19:41:20.810] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@544502d6=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/glowberry_expantion:lapis_launch_gem_recipe
-[30Jul2025 19:41:20.811] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@2e530f34=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/glowberry_expantion:engraved_emerald_recipe
-[30Jul2025 19:41:20.812] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@44b860b1=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/glowberry_expantion:blue_extract_recipe
-[30Jul2025 19:41:20.814] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@3a4ddaed=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/glowberry_expantion:engraved_amethst_recipe
-[30Jul2025 19:41:20.815] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@74f446ba=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/glowberry_expantion:purple_extract_recipe
-[30Jul2025 19:41:20.816] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@e2bdc58=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/glowberry_expantion:engraved_diamond_recipe
-[30Jul2025 19:41:20.816] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@46672a62=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/glowberry_expantion:green_extract_recipe
-[30Jul2025 19:41:20.816] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@3a2cc282=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/glowberry_expantion:orange_extract
-[30Jul2025 19:41:20.816] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@608707d=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/glowberry_expantion:engraved_glowstone_recipe
-[30Jul2025 19:41:20.940] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.RecipesUpdatedEvent
-[30Jul2025 19:41:20.997] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.event.TagsUpdatedEvent
-[30Jul2025 19:41:20.997] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from ENABLED to JEI_STARTED
-[30Jul2025 19:41:20.998] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI...
-[30Jul2025 19:41:21.006] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes...
-[30Jul2025 19:41:21.010] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes took 2.781 ms
-[30Jul2025 19:41:21.010] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes...
-[30Jul2025 19:41:21.012] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes took 1.801 ms
-[30Jul2025 19:41:21.013] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients...
-[30Jul2025 19:41:21.076] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering ingredients: jei:minecraft took 61.75 milliseconds
-[30Jul2025 19:41:21.077] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients took 62.71 ms
-[30Jul2025 19:41:21.087] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories...
-[30Jul2025 19:41:21.100] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: jei:minecraft took 12.80 milliseconds
-[30Jul2025 19:41:21.101] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories took 14.35 ms
-[30Jul2025 19:41:21.102] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions...
-[30Jul2025 19:41:21.105] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions took 1.739 ms
-[30Jul2025 19:41:21.107] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts...
-[30Jul2025 19:41:21.108] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts took 1.250 ms
-[30Jul2025 19:41:21.109] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins...
-[30Jul2025 19:41:21.110] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins took 572.6 μs
-[30Jul2025 19:41:21.110] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry...
-[30Jul2025 19:41:21.129] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry took 18.57 ms
-[30Jul2025 19:41:21.130] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes...
-[30Jul2025 19:41:21.361] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:minecraft took 230.2 milliseconds
-[30Jul2025 19:41:21.371] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes took 240.4 ms
-[30Jul2025 19:41:21.375] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers...
-[30Jul2025 19:41:21.378] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers took 2.937 ms
-[30Jul2025 19:41:21.385] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime...
-[30Jul2025 19:41:21.390] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers...
-[30Jul2025 19:41:21.396] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers took 5.815 ms
-[30Jul2025 19:41:21.400] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime...
-[30Jul2025 19:41:21.401] [Render thread/INFO] [mezz.jei.gui.startup.JeiGuiStarter/]: Starting JEI GUI
-[30Jul2025 19:41:21.402] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list...
-[30Jul2025 19:41:21.405] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list took 3.231 ms
-[30Jul2025 19:41:21.405] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter...
-[30Jul2025 19:41:21.426] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Adding 1561 ingredients
-[30Jul2025 19:41:21.652] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Added 1561 ingredients
-[30Jul2025 19:41:21.653] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter took 247.2 ms
-[30Jul2025 19:41:21.780] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Runtime: jei:forge_gui took 380.1 milliseconds
-[30Jul2025 19:41:21.781] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime took 380.9 ms
-[30Jul2025 19:41:21.781] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime took 395.8 ms
-[30Jul2025 19:41:21.782] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime...
-[30Jul2025 19:41:21.782] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime took 548.1 μs
-[30Jul2025 19:41:21.782] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI took 784.2 ms
-[30Jul2025 19:41:22.025] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 14 advancements
-[30Jul2025 19:41:22.031] [Render thread/INFO] [patchouli/]: BookContentResourceListenerLoader: Files found in 175.3 μs
-[30Jul2025 19:41:22.035] [Render thread/INFO] [patchouli/]: BookContentResourceListenerLoader: Files found in 163.7 μs
-[30Jul2025 19:41:22.050] [Render thread/INFO] [patchouli/]: BookContentResourceListenerLoader: Files found in 152.4 μs
-[30Jul2025 19:45:20.040] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 17 advancements
-[30Jul2025 19:45:35.933] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[30Jul2025 19:45:35.941] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[30Jul2025 19:45:35.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[30Jul2025 19:45:35.952] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[30Jul2025 19:45:36.965] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingOut
-[30Jul2025 19:45:36.965] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from JEI_STARTED to DISABLED
-[30Jul2025 19:45:36.965] [Render thread/INFO] [mezz.jei.library.startup.JeiStarter/]: Stopping JEI
-[30Jul2025 19:45:36.966] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable...
-[30Jul2025 19:45:36.966] [Render thread/INFO] [mezz.jei.forge.plugins.forge.ForgeGuiPlugin/]: Stopping JEI GUI
-[30Jul2025 19:45:36.969] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable took 3.335 ms
-[30Jul2025 19:45:36.990] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
-[30Jul2025 19:45:36.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[30Jul2025 19:45:36.998] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
-[30Jul2025 19:45:37.034] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[30Jul2025 19:45:37.034] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[30Jul2025 19:45:37.034] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[30Jul2025 19:45:37.681] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[30Jul2025 19:45:38.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[30Jul2025 19:45:38.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[30Jul2025 19:45:38.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World (14)): All chunks are saved
-[30Jul2025 19:45:38.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[30Jul2025 19:45:38.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[30Jul2025 19:45:38.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[30Jul2025 19:45:40.750] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[10Aug2025 12:28:07.006] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[10Aug2025 12:28:07.006] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[10Aug2025 12:28:07.047] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on 27G2G3 (NVIDIA High Definition Audio)
+[10Aug2025 12:28:07.048] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[10Aug2025 12:28:07.157] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/blocks.png-atlas
+[10Aug2025 12:28:07.165] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/signs.png-atlas
+[10Aug2025 12:28:07.165] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
+[10Aug2025 12:28:07.165] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
+[10Aug2025 12:28:07.166] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/armor_trims.png-atlas
+[10Aug2025 12:28:07.168] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
+[10Aug2025 12:28:07.168] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x2 minecraft:textures/atlas/decorated_pot.png-atlas
+[10Aug2025 12:28:07.170] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
+[10Aug2025 12:28:07.170] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
+[10Aug2025 12:28:07.277] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[10Aug2025 12:28:07.322] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[10Aug2025 12:28:07.323] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[10Aug2025 12:28:07.323] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[10Aug2025 12:28:07.325] [Render thread/INFO] [patchouli/]: BookContentResourceListenerLoader preloaded 34 jsons
+[10Aug2025 12:28:07.325] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 jei:textures/atlas/gui.png-atlas
+[10Aug2025 12:28:07.707] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
+[10Aug2025 12:28:12.356] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[10Aug2025 12:28:13.938] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 9 recipes
+[10Aug2025 12:28:14.022] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1274 advancements
+[10Aug2025 12:28:14.406] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
+[10Aug2025 12:28:14.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[10Aug2025 12:28:15.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[10Aug2025 12:28:17.377] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Aug2025 12:28:17.377] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Aug2025 12:28:17.377] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Aug2025 12:28:17.377] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Aug2025 12:28:17.440] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Aug2025 12:28:17.952] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 50%
+[10Aug2025 12:28:18.193] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[10Aug2025 12:28:18.194] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[10Aug2025 12:28:18.200] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2767 ms
+[10Aug2025 12:28:18.301] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 5, from 10
+[10Aug2025 12:28:18.303] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[10Aug2025 12:28:18.402] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[10Aug2025 12:28:18.833] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[10Aug2025 12:28:18.898] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:b4dd1acf] logged in with entity id 84 at (2274.694788340561, 89.0, -167.19148132150207)
+[10Aug2025 12:28:18.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[10Aug2025 12:28:19.002] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingIn
+[10Aug2025 12:28:19.002] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from DISABLED to ENABLED
+[10Aug2025 12:28:19.010] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@74a37c91=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/glowberry_expantion:engraved_glowstone_recipe
+[10Aug2025 12:28:19.013] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@64b6d6dd=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/glowberry_expantion:engraved_amethst_recipe
+[10Aug2025 12:28:19.014] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@6042b613=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/glowberry_expantion:engraved_emerald_recipe
+[10Aug2025 12:28:19.016] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@7241872c=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/glowberry_expantion:purple_extract_recipe
+[10Aug2025 12:28:19.017] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@7e93497d=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/glowberry_expantion:green_extract_recipe
+[10Aug2025 12:28:19.017] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@1992b8b=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/glowberry_expantion:orange_extract
+[10Aug2025 12:28:19.019] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@5f478e42=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/glowberry_expantion:engraved_diamond_recipe
+[10Aug2025 12:28:19.020] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@ed110d6=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/glowberry_expantion:lapis_launch_gem_recipe
+[10Aug2025 12:28:19.020] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@61906bb1=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/glowberry_expantion:blue_extract_recipe
+[10Aug2025 12:28:19.180] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.RecipesUpdatedEvent
+[10Aug2025 12:28:19.192] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.event.TagsUpdatedEvent
+[10Aug2025 12:28:19.192] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from ENABLED to JEI_STARTED
+[10Aug2025 12:28:19.192] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI...
+[10Aug2025 12:28:19.200] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes...
+[10Aug2025 12:28:19.203] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes took 2.493 ms
+[10Aug2025 12:28:19.203] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes...
+[10Aug2025 12:28:19.206] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes took 1.416 ms
+[10Aug2025 12:28:19.207] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients...
+[10Aug2025 12:28:19.268] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering ingredients: jei:minecraft took 60.37 milliseconds
+[10Aug2025 12:28:19.268] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients took 61.37 ms
+[10Aug2025 12:28:19.278] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories...
+[10Aug2025 12:28:19.293] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: jei:minecraft took 14.84 milliseconds
+[10Aug2025 12:28:19.295] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories took 16.68 ms
+[10Aug2025 12:28:19.296] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions...
+[10Aug2025 12:28:19.298] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions took 2.255 ms
+[10Aug2025 12:28:19.299] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts...
+[10Aug2025 12:28:19.301] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts took 894.7 μs
+[10Aug2025 12:28:19.303] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins...
+[10Aug2025 12:28:19.303] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins took 504.6 μs
+[10Aug2025 12:28:19.303] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry...
+[10Aug2025 12:28:19.313] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry took 9.146 ms
+[10Aug2025 12:28:19.315] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes...
+[10Aug2025 12:28:19.546] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:minecraft took 231.1 milliseconds
+[10Aug2025 12:28:19.557] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes took 241.7 ms
+[10Aug2025 12:28:19.559] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers...
+[10Aug2025 12:28:19.563] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers took 2.708 ms
+[10Aug2025 12:28:19.566] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime...
+[10Aug2025 12:28:19.570] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers...
+[10Aug2025 12:28:19.577] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers took 6.962 ms
+[10Aug2025 12:28:19.580] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime...
+[10Aug2025 12:28:19.582] [Render thread/INFO] [mezz.jei.gui.startup.JeiGuiStarter/]: Starting JEI GUI
+[10Aug2025 12:28:19.583] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list...
+[10Aug2025 12:28:19.586] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list took 2.921 ms
+[10Aug2025 12:28:19.586] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter...
+[10Aug2025 12:28:19.604] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Adding 1561 ingredients
+[10Aug2025 12:28:19.773] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Added 1561 ingredients
+[10Aug2025 12:28:19.774] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter took 188.1 ms
+[10Aug2025 12:28:19.851] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Runtime: jei:forge_gui took 270.0 milliseconds
+[10Aug2025 12:28:19.851] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime took 271.0 ms
+[10Aug2025 12:28:19.852] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime took 285.9 ms
+[10Aug2025 12:28:19.852] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime...
+[10Aug2025 12:28:19.853] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime took 597.2 μs
+[10Aug2025 12:28:19.853] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI took 660.1 ms
+[10Aug2025 12:28:20.041] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 48 advancements
+[10Aug2025 12:28:20.045] [Render thread/INFO] [patchouli/]: BookContentResourceListenerLoader: Files found in 180.9 μs
+[10Aug2025 12:28:20.051] [Render thread/INFO] [patchouli/]: BookContentResourceListenerLoader: Files found in 170.2 μs
+[10Aug2025 12:28:20.072] [Render thread/INFO] [patchouli/]: BookContentResourceListenerLoader: Files found in 144.4 μs
+[10Aug2025 12:30:51.562] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[10Aug2025 12:30:51.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[10Aug2025 12:30:51.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[10Aug2025 12:30:51.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[10Aug2025 12:30:52.150] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingOut
+[10Aug2025 12:30:52.150] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from JEI_STARTED to DISABLED
+[10Aug2025 12:30:52.150] [Render thread/INFO] [mezz.jei.library.startup.JeiStarter/]: Stopping JEI
+[10Aug2025 12:30:52.151] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable...
+[10Aug2025 12:30:52.151] [Render thread/INFO] [mezz.jei.forge.plugins.forge.ForgeGuiPlugin/]: Stopping JEI GUI
+[10Aug2025 12:30:52.155] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable took 4.090 ms
+[10Aug2025 12:30:52.168] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[10Aug2025 12:30:52.168] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[10Aug2025 12:30:52.177] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[10Aug2025 12:30:52.211] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[10Aug2025 12:30:52.211] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[10Aug2025 12:30:52.212] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[10Aug2025 12:30:52.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[10Aug2025 12:30:53.375] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[10Aug2025 12:30:53.376] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[10Aug2025 12:30:53.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World (14)): All chunks are saved
+[10Aug2025 12:30:53.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10Aug2025 12:30:53.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10Aug2025 12:30:53.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[10Aug2025 12:30:55.530] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

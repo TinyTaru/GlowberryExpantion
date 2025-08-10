@@ -1,0 +1,29 @@
+{
+  "type": "patchouli:multiblock",
+  "name": "Froglight Cross Cluster",
+  "id": "froglight_cross_cluster",
+  "enable_visualization": true,
+
+  "pattern": [
+    [  // Y = 0 (base layer)
+      " P ",
+      "OVO",
+      " P "
+    ],
+    [  // Y = 1 (top of the verdant pillar)
+      "   ",
+      " V ",
+      "   "
+    ]
+  ],
+
+  "mapping": {
+    "V": { "block": "minecraft:verdant_froglight" },
+    "O": { "block": "minecraft:ochre_froglight" },
+    "P": { "block": "minecraft:pearlescent_froglight" },
+    " ": { "type": "air" }
+  },
+
+  "symmetrical": false,
+  "offset": [0, -1, 0]
+}
