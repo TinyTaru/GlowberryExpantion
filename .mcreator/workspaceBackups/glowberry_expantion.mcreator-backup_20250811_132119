@@ -70,7 +70,7 @@
     {
       "name": "GlowvineblueOnBlockRightClicked",
       "type": "procedure",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "glowvineblue_on_block_right_clicked",
       "metadata": {
@@ -123,7 +123,7 @@
     {
       "name": "GlowvineblueGrow",
       "type": "procedure",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "glowvineblue_grow",
       "metadata": {
@@ -2838,6 +2838,48 @@
           "src/main/resources/data/glowberry_expantion/recipes/gem_pouch_recipe.json"
         ]
       }
+    },
+    {
+      "name": "VinedBlossemHelmetTickEvent",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vined_blossem_helmet_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/glowberryexpantion/procedures/VinedBlossemHelmetTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VinedLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vined_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/glowberry_expantion/loot_tables/entities/the_vined.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -2953,7 +2995,7 @@
       "item.glowberry_expantion.green_glowberrys": "§aGreen Glowberrys",
       "block.glowberry_expantion.glowvinepurple": "Purple Glowberry Vine",
       "item.glowberry_expantion.green_glowberry_extract": "§aGreen Glowberry Extract",
-      "item.glowberry_expantion.vined_blossem_helmet": "Vined Blossem Helmet",
+      "item.glowberry_expantion.vined_blossem_helmet": "Spore Blossem Hat",
       "item.glowberry_expantion.vined_blossem_chestplate": "Vined Blossem Chestplate",
       "jei.glowberry_expantion.purple_glowberry_info": "Can be found in underground ruins located at deepslate level.",
       "item.glowberry_expantion.vined_blossem_leggings": "Vined Blossem Leggings",

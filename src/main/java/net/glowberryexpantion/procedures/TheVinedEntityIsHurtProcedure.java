@@ -22,10 +22,10 @@ public class TheVinedEntityIsHurtProcedure {
 		double particleRadius = 0;
 		double particleAmount = 0;
 		if (world instanceof ServerLevel _level)
-			_level.sendParticles((SimpleParticleType) (GlowberryExpantionModParticleTypes.VINED_SPORE_CLOUD.get()), x, y, z, 300, 3, 3, 3, 0.1);
+			_level.sendParticles((SimpleParticleType) (GlowberryExpantionModParticleTypes.VINED_SPORE_CLOUD.get()), x, y, z, 150, 3, 3, 3, 0.1);
 		GlowberryExpantionMod.queueServerWork(10, () -> {
 			if (world instanceof ServerLevel _level)
-				_level.sendParticles((SimpleParticleType) (GlowberryExpantionModParticleTypes.VINED_SPORE_CLOUD.get()), x, y, z, 300, 3, 3, 3, 0.1);
+				_level.sendParticles((SimpleParticleType) (GlowberryExpantionModParticleTypes.VINED_SPORE_CLOUD.get()), x, y, z, 150, 3, 3, 3, 0.1);
 			{
 				final Vec3 _center = new Vec3(x, y, z);
 				List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(4 / 2d), e -> true).stream().sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center))).toList();

@@ -42,7 +42,7 @@
       "value": ""
     },
     "equipmentHelmet": {
-      "value": "CUSTOM:VinedBlossem.helmet"
+      "value": ""
     },
     "equipmentBody": {
       "value": ""
@@ -89,7 +89,7 @@
     "immuneToWither": false,
     "immuneToDragonBreath": false,
     "mobDrop": {
-      "value": "CUSTOM:BlueGlowberrys"
+      "value": ""
     },
     "livingSound": {
       "value": "entity.bogged.ambient"

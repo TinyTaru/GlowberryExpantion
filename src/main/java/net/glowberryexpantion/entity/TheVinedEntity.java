@@ -15,7 +15,6 @@ import net.minecraftforge.network.PlayMessages;
 import net.minecraftforge.network.NetworkHooks;
 
 import net.minecraft.world.level.Level;
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
@@ -28,7 +27,6 @@ import net.minecraft.world.entity.Pose;
 import net.minecraft.world.entity.MobType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.EntityDimensions;
 import net.minecraft.world.damagesource.DamageSource;
@@ -43,7 +41,6 @@ import net.minecraft.nbt.CompoundTag;
 
 import net.glowberryexpantion.procedures.TheVinedEntityIsHurtProcedure;
 import net.glowberryexpantion.procedures.TheVinedEntityDiesProcedure;
-import net.glowberryexpantion.init.GlowberryExpantionModItems;
 import net.glowberryexpantion.init.GlowberryExpantionModEntities;
 
 public class TheVinedEntity extends Monster implements GeoEntity {
@@ -65,7 +62,6 @@ public class TheVinedEntity extends Monster implements GeoEntity {
 		xpReward = 10;
 		setNoAi(false);
 		setMaxUpStep(0.6f);
-		this.setItemSlot(EquipmentSlot.HEAD, new ItemStack(GlowberryExpantionModItems.VINED_BLOSSEM_HELMET.get()));
 	}
 
 	@Override
@@ -107,11 +103,6 @@ public class TheVinedEntity extends Monster implements GeoEntity {
 	@Override
 	public MobType getMobType() {
 		return MobType.UNDEAD;
-	}
-
-	protected void dropCustomDeathLoot(DamageSource source, int looting, boolean recentlyHitIn) {
-		super.dropCustomDeathLoot(source, looting, recentlyHitIn);
-		this.spawnAtLocation(new ItemStack(GlowberryExpantionModItems.BLUE_GLOWBERRYS.get()));
 	}
 
 	@Override

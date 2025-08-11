@@ -3,16 +3,23 @@
   "_type": "animatedarmor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "minecraft:stick",
+    "textureHelmet": "spore_blossem_hat",
     "enableBody": false,
     "textureBody": "",
     "enableLeggings": false,
     "textureLeggings": "",
     "enableBoots": false,
     "textureBoots": "",
-    "creativeTabs": [],
-    "armorTextureFile": "the_vined.png",
-    "model": "vined_hat.geo.json",
+    "onHelmetTick": {
+      "name": "VinedBlossemHelmetTickEvent"
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:GlowberryExpantion"
+      }
+    ],
+    "armorTextureFile": "spore_hat.png",
+    "model": "spore_blossem_hat.geo.json",
     "idle": "idle",
     "head": "armorHead",
     "chest": "armorBody",
@@ -22,7 +29,7 @@
     "leftLeg": "armorLeftLeg",
     "rightBoot": "armorRightBoot",
     "leftBoot": "armorLeftBoot",
-    "helmetName": "Vined Blossem Helmet",
+    "helmetName": "Spore Blossem Hat",
     "bodyName": "Vined Blossem Chestplate",
     "leggingsName": "Vined Blossem Leggings",
     "bootsName": "Vined Blossem Boots",
@@ -52,7 +59,7 @@
     "toughness": 0.0,
     "knockbackResistance": 0.0,
     "equipSound": {
-      "value": ""
+      "value": "block.azalea.place"
     },
     "repairItems": []
   }

@@ -9,16 +9,16 @@ import net.glowberryexpantion.item.VinedBlossemItem;
 public class VinedBlossemModel extends GeoModel<VinedBlossemItem> {
 	@Override
 	public ResourceLocation getAnimationResource(VinedBlossemItem object) {
-		return new ResourceLocation("glowberry_expantion", "animations/vined_hat.animation.json");
+		return new ResourceLocation("glowberry_expantion", "animations/spore_blossem_hat.animation.json");
 	}
 
 	@Override
 	public ResourceLocation getModelResource(VinedBlossemItem object) {
-		return new ResourceLocation("glowberry_expantion", "geo/vined_hat.geo.json");
+		return new ResourceLocation("glowberry_expantion", "geo/spore_blossem_hat.geo.json");
 	}
 
 	@Override
 	public ResourceLocation getTextureResource(VinedBlossemItem object) {
-		return new ResourceLocation("glowberry_expantion", "textures/item/the_vined.png");
+		return new ResourceLocation("glowberry_expantion", "textures/item/spore_hat.png");
 	}
 }

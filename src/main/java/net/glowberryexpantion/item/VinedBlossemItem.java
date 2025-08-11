@@ -12,6 +12,7 @@ import software.bernie.geckolib.core.animatable.instance.AnimatableInstanceCache
 import software.bernie.geckolib.constant.DataTickets;
 import software.bernie.geckolib.animatable.GeoItem;
 
+import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.client.extensions.common.IClientItemExtensions;
 
 import net.minecraft.world.level.Level;
@@ -26,11 +27,12 @@ import net.minecraft.world.entity.decoration.ArmorStand;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundEvent;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.model.HumanoidModel;
 
+import net.glowberryexpantion.procedures.VinedBlossemHelmetTickEventProcedure;
 import net.glowberryexpantion.client.renderer.VinedBlossemArmorRenderer;
 
 import java.util.function.Consumer;
@@ -59,7 +61,7 @@ public class VinedBlossemItem extends ArmorItem implements GeoItem {
 
 			@Override
 			public SoundEvent getEquipSound() {
-				return SoundEvents.EMPTY;
+				return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.azalea.place"));
 			}
 
 			@Override
@@ -106,6 +108,8 @@ public class VinedBlossemItem extends ArmorItem implements GeoItem {
 
 	@Override
 	public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
+		if (itemstack.getItem() instanceof VinedBlossemItem armor && armor.getType() == ArmorItem.Type.HELMET)
+			VinedBlossemHelmetTickEventProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ());
 	}
 
 	private PlayState predicate(AnimationState event) {
