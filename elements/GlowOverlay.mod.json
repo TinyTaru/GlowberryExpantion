@@ -6,6 +6,9 @@
     "components": [],
     "baseTexture": "greater_glowing_overlay_soft_gold_256_native.png",
     "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "GlowOverlayDisplayOverlayIngame"
+    },
     "gridSettings": {
       "sx": 18,
       "sy": 18,

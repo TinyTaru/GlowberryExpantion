@@ -11,7 +11,7 @@ import net.glowberryexpantion.init.GlowberryExpantionModBlocks;
 
 public class GlowvineblueGrowProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
-		if (1 <= Mth.nextDouble(RandomSource.create(), 0, 2)) {
+		if (1 <= Mth.nextDouble(RandomSource.create(), 0, 3)) {
 			if (world.isEmptyBlock(BlockPos.containing(x, y - 1, z)) && 1 <= Mth.nextDouble(RandomSource.create(), 0, 2)) {
 				if (((world.getBlockState(BlockPos.containing(x, y, z))).getBlock().getStateDefinition().getProperty("blockstate") instanceof IntegerProperty _getip4
 						? (world.getBlockState(BlockPos.containing(x, y, z))).getValue(_getip4)
