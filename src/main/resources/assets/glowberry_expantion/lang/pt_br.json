@@ -1,4 +1,5 @@
 {
+  "item.glowberry_expantion.red_glowberrys": "Purple Glowberrys",
   "item.glowberry_expantion.lapis_launch_gem": "Engraved Lapis",
   "gui.glowberry_expantion.home_page.tooltip_engraved_gems": "Engraved Gems",
   "advancements.gem_engraving.descr": "And what does this have to do with glowberrys?",
@@ -54,6 +55,7 @@
   "block.glowberry_expantion.glowberry_lantern": "Glowberry Lantern Frame",
   "item.glowberry_expantion.engraved_glow_stone": "Engraved Glow Stone",
   "item.glowberry_expantion.glowstone_crystal": "Glowstone Crystal",
+  "block.glowberry_expantion.glowvinered": "Purple Glowberry Vine",
   "advancements.glow_berry_refining.descr": "What is next?",
   "subtitles.engraved_gem_use": ""
 }

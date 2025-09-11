@@ -51,6 +51,7 @@ public class GlowberryExpantionModTabs {
 				tabData.accept(GlowberryExpantionModItems.GLOWSTONE_CRYSTAL.get());
 				tabData.accept(GlowberryExpantionModItems.ENGRAVED_GLOW_STONE.get());
 				tabData.accept(GlowberryExpantionModItems.GEM_POUCH.get());
+				tabData.accept(GlowberryExpantionModItems.RED_GLOWBERRYS.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
@@ -67,6 +68,7 @@ public class GlowberryExpantionModTabs {
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(GlowberryExpantionModItems.BLUE_GLOWBERRYS.get());
 			tabData.accept(GlowberryExpantionModItems.PURPLE_GLOWBERRYS.get());
+			tabData.accept(GlowberryExpantionModItems.RED_GLOWBERRYS.get());
 		}
 	}
 }

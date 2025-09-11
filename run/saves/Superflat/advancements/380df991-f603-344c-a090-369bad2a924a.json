@@ -447,5 +447,17 @@
     },
     "done": true
   },
+  "glowberry_expantion:gem_engraving": {
+    "criteria": {
+      "gem_engraving_0": "2025-09-06 13:35:07 -0700"
+    },
+    "done": true
+  },
+  "glowberry_expantion:glow_berry_refining": {
+    "criteria": {
+      "glow_berry_refining_0": "2025-09-06 13:35:07 -0700"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

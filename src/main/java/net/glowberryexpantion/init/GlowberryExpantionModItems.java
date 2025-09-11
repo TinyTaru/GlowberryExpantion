@@ -22,6 +22,7 @@ import net.minecraft.client.renderer.item.ItemProperties;
 
 import net.glowberryexpantion.procedures.IngravedAmethystPropertyValueProviderProcedure;
 import net.glowberryexpantion.item.VinedBlossemItem;
+import net.glowberryexpantion.item.RedGlowberrysItem;
 import net.glowberryexpantion.item.PurpleGlowberrysItem;
 import net.glowberryexpantion.item.PurpleGlowberryExtractItem;
 import net.glowberryexpantion.item.MortarAndPestleItem;
@@ -82,6 +83,8 @@ public class GlowberryExpantionModItems {
 	public static final RegistryObject<Item> RADIANT_LIGHT_BLOCK = block(GlowberryExpantionModBlocks.RADIANT_LIGHT_BLOCK);
 	public static final RegistryObject<Item> ENGRAVED_GLOW_STONE = REGISTRY.register("engraved_glow_stone", () -> new EngravedGlowStoneItem());
 	public static final RegistryObject<Item> GEM_POUCH = REGISTRY.register("gem_pouch", () -> new GemPouchItem());
+	public static final RegistryObject<Item> RED_GLOWBERRYS = REGISTRY.register("red_glowberrys", () -> new RedGlowberrysItem());
+	public static final RegistryObject<Item> GLOWVINERED = block(GlowberryExpantionModBlocks.GLOWVINERED);
 
 	// Start of user code block custom items
 	// End of user code block custom items

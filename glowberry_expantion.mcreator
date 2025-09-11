@@ -2906,6 +2906,192 @@
         ],
         "dependencies": []
       }
+    },
+    {
+      "name": "RedGlowberrys",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_glowberrys",
+      "metadata": {
+        "files": [
+          "src/main/java/net/glowberryexpantion/item/RedGlowberrysItem.java",
+          "src/main/resources/assets/glowberry_expantion/models/item/red_glowberrys.json"
+        ]
+      },
+      "path": "~/Red Glowberry"
+    },
+    {
+      "name": "Glowvinered",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowvinered",
+      "metadata": {
+        "files": [
+          "src/main/java/net/glowberryexpantion/block/GlowvineredBlock.java",
+          "src/main/resources/data/glowberry_expantion/loot_tables/blocks/glowvinered.json",
+          "src/main/resources/assets/glowberry_expantion/models/item/glowvinered.json",
+          "src/main/resources/assets/glowberry_expantion/models/block/glowvinered.json",
+          "src/main/resources/assets/glowberry_expantion/blockstates/glowvinered.json"
+        ]
+      },
+      "path": "~/Red Glowberry"
+    },
+    {
+      "name": "GlowvineredBlockstate",
+      "type": "blockstates",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowvinered_blockstate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/glowberry_expantion/models/block/glowvinered_blockstate_blockstate_0.json",
+          "src/main/resources/assets/glowberry_expantion/models/block/glowvinered_blockstate_blockstate_1.json",
+          "src/main/resources/assets/glowberry_expantion/models/block/glowvinered_blockstate_blockstate_2.json"
+        ]
+      },
+      "path": "~/Red Glowberry"
+    },
+    {
+      "name": "GlowvineredOnBlockRightClick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowvinered_on_block_right_click",
+      "metadata": {
+        "files": [
+          "src/main/java/net/glowberryexpantion/procedures/GlowvineredOnBlockRightClickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Red Glowberry"
+    },
+    {
+      "name": "RedGlowberrysRightClick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_glowberrys_right_click",
+      "metadata": {
+        "files": [
+          "src/main/java/net/glowberryexpantion/procedures/RedGlowberrysRightClickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Red Glowberry"
+    },
+    {
+      "name": "GlowvineredGrow",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowvinered_grow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/glowberryexpantion/procedures/GlowvineredGrowProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Red Glowberry"
+    },
+    {
+      "name": "GlowvineredNeighbouringBlockChange",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowvinered_neighbouring_block_change",
+      "metadata": {
+        "files": [
+          "src/main/java/net/glowberryexpantion/procedures/GlowvineredNeighbouringBlockChangeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Red Glowberry"
     }
   ],
   "variable_elements": [],
@@ -2987,6 +3173,7 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "item.glowberry_expantion.red_glowberrys": "§cRed Glowberrys",
       "item.glowberry_expantion.lapis_launch_gem": "Engraved Lapis",
       "gui.glowberry_expantion.home_page.tooltip_engraved_gems": "Engraved Gems",
       "advancements.gem_engraving.descr": "And what does this have to do with glowberrys?",
@@ -3042,10 +3229,12 @@
       "block.glowberry_expantion.glowberry_lantern": "Glowberry Lantern Frame",
       "item.glowberry_expantion.engraved_glow_stone": "Engraved Glow Stone",
       "item.glowberry_expantion.glowstone_crystal": "Glowstone Crystal",
+      "block.glowberry_expantion.glowvinered": "Red Glowberry Vines",
       "advancements.glow_berry_refining.descr": "What is next?",
       "subtitles.engraved_gem_use": ""
     },
     "pt_br": {
+      "item.glowberry_expantion.red_glowberrys": "Purple Glowberrys",
       "item.glowberry_expantion.lapis_launch_gem": "Engraved Lapis",
       "gui.glowberry_expantion.home_page.tooltip_engraved_gems": "Engraved Gems",
       "advancements.gem_engraving.descr": "And what does this have to do with glowberrys?",
@@ -3101,6 +3290,7 @@
       "block.glowberry_expantion.glowberry_lantern": "Glowberry Lantern Frame",
       "item.glowberry_expantion.engraved_glow_stone": "Engraved Glow Stone",
       "item.glowberry_expantion.glowstone_crystal": "Glowstone Crystal",
+      "block.glowberry_expantion.glowvinered": "Purple Glowberry Vine",
       "advancements.glow_berry_refining.descr": "What is next?",
       "subtitles.engraved_gem_use": ""
     }
@@ -3126,6 +3316,10 @@
       },
       {
         "name": "Green Glowberry",
+        "children": []
+      },
+      {
+        "name": "Red Glowberry",
         "children": []
       }
     ]
