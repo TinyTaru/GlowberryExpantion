@@ -24,7 +24,11 @@
         "glowberry_expantion:radiance_entry",
         "glowberry_expantion:gem_pouch_entry",
         "glowberry_expantion:glow_armor_entry",
-        "glowberry_expantion:froglight_cross_cluster"
+        "glowberry_expantion:froglight_cross_cluster",
+        "glowberry_expantion:basalt_pocket_entry",
+        "glowberry_expantion:blackstone_chest_entry",
+        "glowberry_expantion:engraved_redstone_entry",
+        "glowberry_expantion:red_glowberrys_entry"
       ],
       "bookmarks": [],
       "completedManualQuests": []

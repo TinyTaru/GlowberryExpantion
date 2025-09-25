@@ -16,6 +16,7 @@ import net.glowberryexpantion.client.gui.PageEngravedGemsScreen;
 import net.glowberryexpantion.client.gui.HomePageScreen;
 import net.glowberryexpantion.client.gui.GemPouchGUIScreen;
 import net.glowberryexpantion.client.gui.GemEngraverGUIScreen;
+import net.glowberryexpantion.client.gui.BlackStoneChestGUIScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class GlowberryExpantionModScreens {
@@ -27,6 +28,7 @@ public class GlowberryExpantionModScreens {
 			MenuScreens.register(GlowberryExpantionModMenus.HOME_PAGE.get(), HomePageScreen::new);
 			MenuScreens.register(GlowberryExpantionModMenus.PAGE_ENGRAVED_GEMS.get(), PageEngravedGemsScreen::new);
 			MenuScreens.register(GlowberryExpantionModMenus.GEM_POUCH_GUI.get(), GemPouchGUIScreen::new);
+			MenuScreens.register(GlowberryExpantionModMenus.BLACK_STONE_CHEST_GUI.get(), BlackStoneChestGUIScreen::new);
 		});
 	}
 }

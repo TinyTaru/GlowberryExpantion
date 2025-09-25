@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "b b",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gold_nugget"
+    },
+    "b": {
+      "item": "minecraft:polished_blackstone"
+    }
+  },
+  "result": {
+    "item": "glowberry_expantion:blackstone_chest",
+    "count": 1
+  }
+}

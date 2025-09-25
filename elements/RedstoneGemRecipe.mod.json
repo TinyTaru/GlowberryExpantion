@@ -1,0 +1,22 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 2.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "Blocks.REDSTONE_BLOCK"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:RedstoneGem"
+    },
+    "name": "redstone_gem_recipe",
+    "namespace": "mod"
+  }
+}

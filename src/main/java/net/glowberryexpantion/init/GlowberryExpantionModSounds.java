@@ -17,4 +17,6 @@ public class GlowberryExpantionModSounds {
 	public static final DeferredRegister<SoundEvent> REGISTRY = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, GlowberryExpantionMod.MODID);
 	public static final RegistryObject<SoundEvent> ENGRAVED_GEM_USE = REGISTRY.register("engraved_gem_use", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("glowberry_expantion", "engraved_gem_use")));
 	public static final RegistryObject<SoundEvent> ENGRAVER_USE = REGISTRY.register("engraver_use", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("glowberry_expantion", "engraver_use")));
+	public static final RegistryObject<SoundEvent> BLACKSTONE_CHEST_OPEN = REGISTRY.register("blackstone_chest_open", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("glowberry_expantion", "blackstone_chest_open")));
+	public static final RegistryObject<SoundEvent> BLACKSTONE_CHEST_CLOSE = REGISTRY.register("blackstone_chest_close", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("glowberry_expantion", "blackstone_chest_close")));
 }

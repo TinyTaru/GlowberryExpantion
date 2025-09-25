@@ -7,7 +7,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.InteractionResult;
 
-import net.glowberryexpantion.procedures.PurpleGlowberrysRightClickProcedure;
+import net.glowberryexpantion.procedures.RedGlowberrysRightClickProcedure;
 
 public class RedGlowberrysItem extends Item {
 	public RedGlowberrysItem() {
@@ -17,7 +17,7 @@ public class RedGlowberrysItem extends Item {
 	@Override
 	public InteractionResult useOn(UseOnContext context) {
 		super.useOn(context);
-		PurpleGlowberrysRightClickProcedure.execute(context.getLevel(), context.getClickedPos().getX(), context.getClickedPos().getY(), context.getClickedPos().getZ(), context.getPlayer());
+		RedGlowberrysRightClickProcedure.execute(context.getLevel(), context.getClickedPos().getX(), context.getClickedPos().getY(), context.getClickedPos().getZ(), context.getPlayer());
 		return InteractionResult.SUCCESS;
 	}
 }

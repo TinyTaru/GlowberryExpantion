@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "glowberry_expantion:block/glowing_chiseled_blackstone",
+    "up": "glowberry_expantion:block/glowing_chiseled_blackstone",
+    "north": "glowberry_expantion:block/glowing_chiseled_blackstone",
+    "east": "glowberry_expantion:block/glowing_chiseled_blackstone",
+    "south": "glowberry_expantion:block/glowing_chiseled_blackstone",
+    "west": "glowberry_expantion:block/glowing_chiseled_blackstone",
+    "particle": "glowberry_expantion:block/glowing_chiseled_blackstone"
+  },
+  "render_type": "solid"
+}

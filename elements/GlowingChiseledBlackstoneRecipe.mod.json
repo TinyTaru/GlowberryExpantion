@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.CHISELED_POLISHED_BLACKSTONE"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.CHISELED_POLISHED_BLACKSTONE"
+      },
+      {
+        "value": "CUSTOM:RedGlowberryExtract"
+      },
+      {
+        "value": "Blocks.CHISELED_POLISHED_BLACKSTONE"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.CHISELED_POLISHED_BLACKSTONE"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GlowingChiseledBlackstone"
+    },
+    "name": "glowing_chiseled_blackstone_recipe",
+    "namespace": "mod"
+  }
+}

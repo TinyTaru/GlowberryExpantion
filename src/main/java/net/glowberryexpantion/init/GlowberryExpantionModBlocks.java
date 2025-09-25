@@ -18,10 +18,12 @@ import net.glowberryexpantion.block.GlowvineblueBlock;
 import net.glowberryexpantion.block.GlowingGreenChiseledStoneBlock;
 import net.glowberryexpantion.block.GlowingChiseledStoneBlock;
 import net.glowberryexpantion.block.GlowingChiseledDeepslateBlock;
+import net.glowberryexpantion.block.GlowingChiseledBlackstoneBlock;
 import net.glowberryexpantion.block.GlowberryRefinerBlock;
 import net.glowberryexpantion.block.GlowberryLanternBlock;
 import net.glowberryexpantion.block.GlowberryCakeBlock;
 import net.glowberryexpantion.block.GemEngraverBlock;
+import net.glowberryexpantion.block.BlackstoneChestBlock;
 import net.glowberryexpantion.GlowberryExpantionMod;
 
 public class GlowberryExpantionModBlocks {
@@ -38,6 +40,8 @@ public class GlowberryExpantionModBlocks {
 	public static final RegistryObject<Block> GLOWING_GREEN_CHISELED_STONE = REGISTRY.register("glowing_green_chiseled_stone", () -> new GlowingGreenChiseledStoneBlock());
 	public static final RegistryObject<Block> RADIANT_LIGHT_BLOCK = REGISTRY.register("radiant_light_block", () -> new RadiantLightBlockBlock());
 	public static final RegistryObject<Block> GLOWVINERED = REGISTRY.register("glowvinered", () -> new GlowvineredBlock());
+	public static final RegistryObject<Block> BLACKSTONE_CHEST = REGISTRY.register("blackstone_chest", () -> new BlackstoneChestBlock());
+	public static final RegistryObject<Block> GLOWING_CHISELED_BLACKSTONE = REGISTRY.register("glowing_chiseled_blackstone", () -> new GlowingChiseledBlackstoneBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

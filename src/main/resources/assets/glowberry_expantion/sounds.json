@@ -31,5 +31,21 @@
         "stream": false
       }
     ]
+  },
+  "blackstone_chest_open": {
+    "sounds": [
+      {
+        "name": "glowberry_expantion:blackstone_chest_open",
+        "stream": false
+      }
+    ]
+  },
+  "blackstone_chest_close": {
+    "sounds": [
+      {
+        "name": "glowberry_expantion:blackstone_chest_close",
+        "stream": false
+      }
+    ]
   }
 }

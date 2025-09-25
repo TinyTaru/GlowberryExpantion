@@ -1,0 +1,18 @@
+{
+    "name": "Red glowberrys",
+    "icon": "glowberry_expantion:red_glowberrys",
+    "category": "glowberry_expantion:glowberrys_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Found in the nether red glowberrys are the hardest of the new glowberrys to acquire. They can be found in basalt pockets."
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+			  "glowberry_expantion:basalt_pocket_entry"
+			],
+			"text": "Here you can find out more about basalt pockets"
+        }
+    ]
+}

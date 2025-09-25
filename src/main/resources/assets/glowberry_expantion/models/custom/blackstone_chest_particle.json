@@ -1,0 +1,7 @@
+
+{
+  "parent": "glowberry_expantion:displaysettings/blackstonechest",
+  "textures": {
+    "particle": "glowberry_expantion:block/blackstone_chest_texture"
+  }
+}

@@ -11,6 +11,10 @@
 			"type": "patchouli:image",
 			"images": ["glowberry_expantion:textures/screens/glowberry_lanterns.png"], 
 			"title": "Glowberry Lanterns"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "glowberry_expantion:glow_lantern_recipe"
 		}
     ]
 }

@@ -22,6 +22,10 @@
 		{
             "type": "glowberry_expantion:refiner_green_extract",
             "text": "Green glowberry extract recipe"
-        }
+        },
+		{
+			"type": "glowberry_expantion:refiner_red_extract",
+			"text": "Red glowberry extract recipe"
+		}
     ]
 }

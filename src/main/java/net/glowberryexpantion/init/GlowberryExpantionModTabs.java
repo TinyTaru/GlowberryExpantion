@@ -52,6 +52,11 @@ public class GlowberryExpantionModTabs {
 				tabData.accept(GlowberryExpantionModItems.ENGRAVED_GLOW_STONE.get());
 				tabData.accept(GlowberryExpantionModItems.GEM_POUCH.get());
 				tabData.accept(GlowberryExpantionModItems.RED_GLOWBERRYS.get());
+				tabData.accept(GlowberryExpantionModBlocks.BLACKSTONE_CHEST.get().asItem());
+				tabData.accept(GlowberryExpantionModBlocks.GLOWING_CHISELED_BLACKSTONE.get().asItem());
+				tabData.accept(GlowberryExpantionModItems.RED_GLOWBERRY_EXTRACT.get());
+				tabData.accept(GlowberryExpantionModItems.REDSTONE_GEM.get());
+				tabData.accept(GlowberryExpantionModItems.ENGRAVED_REDSTONE_GEM.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

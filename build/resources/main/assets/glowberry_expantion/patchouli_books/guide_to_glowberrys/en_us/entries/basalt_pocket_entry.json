@@ -1,0 +1,19 @@
+{
+    "name": "Basalt Pocket",
+    "icon": "minecraft:polished_basalt",
+    "category": "glowberry_expantion:world_gen_category",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Basalt Pockets can be found in the nether in basalt deltas or on lava lakes. You can find red glowberrys in Basalt Pockets"
+        },
+		{
+			"type": "patchouli:image",
+			"images": [
+			  "glowberry_expantion:textures/screens/basalt_pocket_1.png", "glowberry_expantion:textures/screens/basalt_pocket_2.png"
+			],
+			"title": "A Basalt Pocket",
+			"border": true
+		}
+    ]
+}

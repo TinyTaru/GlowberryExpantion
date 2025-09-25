@@ -1,5 +1,4 @@
 {
-	"processor": "package.name.ClassName"
 	"components": [
 		{
 			"type": "patchouli:text",

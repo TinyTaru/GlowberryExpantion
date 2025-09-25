@@ -1,0 +1,20 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "glowberry_expantion:item/engraved_redstone_gem_full"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "glowberry_expantion:engraved_redstone_gem_glowlevel": 38
+      },
+      "model": "glowberry_expantion:item/engraved_redstone_gem_0"
+    },
+    {
+      "predicate": {
+        "glowberry_expantion:engraved_redstone_gem_glowlevel": 20
+      },
+      "model": "glowberry_expantion:item/engraved_redstone_gem_1"
+    }
+  ]
+}

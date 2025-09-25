@@ -22,7 +22,9 @@ import net.minecraft.client.renderer.item.ItemProperties;
 
 import net.glowberryexpantion.procedures.IngravedAmethystPropertyValueProviderProcedure;
 import net.glowberryexpantion.item.VinedBlossemItem;
+import net.glowberryexpantion.item.RedstoneGemItem;
 import net.glowberryexpantion.item.RedGlowberrysItem;
+import net.glowberryexpantion.item.RedGlowberryExtractItem;
 import net.glowberryexpantion.item.PurpleGlowberrysItem;
 import net.glowberryexpantion.item.PurpleGlowberryExtractItem;
 import net.glowberryexpantion.item.MortarAndPestleItem;
@@ -39,10 +41,12 @@ import net.glowberryexpantion.item.GlowingLeatherItem;
 import net.glowberryexpantion.item.GlowberrypieItem;
 import net.glowberryexpantion.item.GlowBerryExtractItem;
 import net.glowberryexpantion.item.GemPouchItem;
+import net.glowberryexpantion.item.EngravedRedstoneGemItem;
 import net.glowberryexpantion.item.EngravedGlowStoneItem;
 import net.glowberryexpantion.item.ChiselItem;
 import net.glowberryexpantion.item.BlueGlowberrysItem;
 import net.glowberryexpantion.item.BlueGlowberryExtractItem;
+import net.glowberryexpantion.block.display.BlackstoneChestDisplayItem;
 import net.glowberryexpantion.GlowberryExpantionMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -85,6 +89,12 @@ public class GlowberryExpantionModItems {
 	public static final RegistryObject<Item> GEM_POUCH = REGISTRY.register("gem_pouch", () -> new GemPouchItem());
 	public static final RegistryObject<Item> RED_GLOWBERRYS = REGISTRY.register("red_glowberrys", () -> new RedGlowberrysItem());
 	public static final RegistryObject<Item> GLOWVINERED = block(GlowberryExpantionModBlocks.GLOWVINERED);
+	public static final RegistryObject<Item> BLACKSTONE_CHEST = REGISTRY.register(GlowberryExpantionModBlocks.BLACKSTONE_CHEST.getId().getPath(),
+			() -> new BlackstoneChestDisplayItem(GlowberryExpantionModBlocks.BLACKSTONE_CHEST.get(), new Item.Properties()));
+	public static final RegistryObject<Item> GLOWING_CHISELED_BLACKSTONE = block(GlowberryExpantionModBlocks.GLOWING_CHISELED_BLACKSTONE);
+	public static final RegistryObject<Item> RED_GLOWBERRY_EXTRACT = REGISTRY.register("red_glowberry_extract", () -> new RedGlowberryExtractItem());
+	public static final RegistryObject<Item> REDSTONE_GEM = REGISTRY.register("redstone_gem", () -> new RedstoneGemItem());
+	public static final RegistryObject<Item> ENGRAVED_REDSTONE_GEM = REGISTRY.register("engraved_redstone_gem", () -> new EngravedRedstoneGemItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
@@ -104,6 +114,8 @@ public class GlowberryExpantionModItems {
 			ItemProperties.register(INGRAVED_DIAMOND.get(), new ResourceLocation("glowberry_expantion:ingraved_diamond_glow_level"),
 					(itemStackToRender, clientWorld, entity, itemEntityId) -> (float) IngravedAmethystPropertyValueProviderProcedure.execute(itemStackToRender));
 			ItemProperties.register(ENGRAVED_GLOW_STONE.get(), new ResourceLocation("glowberry_expantion:engraved_glow_stone_glowlevel"),
+					(itemStackToRender, clientWorld, entity, itemEntityId) -> (float) IngravedAmethystPropertyValueProviderProcedure.execute(itemStackToRender));
+			ItemProperties.register(ENGRAVED_REDSTONE_GEM.get(), new ResourceLocation("glowberry_expantion:engraved_redstone_gem_glowlevel"),
 					(itemStackToRender, clientWorld, entity, itemEntityId) -> (float) IngravedAmethystPropertyValueProviderProcedure.execute(itemStackToRender));
 		});
 	}

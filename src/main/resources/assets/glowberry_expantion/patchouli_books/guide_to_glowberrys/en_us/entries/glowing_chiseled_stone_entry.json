@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "Glowing chiseled stones can be crafted with four chiseled stone or deepslate surrounding one glowberry extract of any color"
+            "text": "Glowing chiseled stones can be crafted with four chiseled stone surrounding one glowberry extract of any color"
         },
 		{
 			"type": "patchouli:crafting",
@@ -14,7 +14,8 @@
 		},
 		{
 			"type": "patchouli:crafting",
-			"recipe": "glowberry_expantion:green_chiseled_stone_recipe"
+			"recipe": "glowberry_expantion:green_chiseled_stone_recipe",
+			"recipe2": "glowberry_expantion:glowing_chiseled_blackstone_recipe"
 		}
     ]
 }
